@@ -1,0 +1,21 @@
+DB_NAME=db_webdesignsd
+DB_USER=db_webdesignsd
+DB_PASSWORD=milf55
+
+# Optional variables
+# DB_HOST=localhost
+# DB_PREFIX=wp_
+
+WP_ENV=development
+WP_HOME=http://webdesignsandiego.dev
+WP_SITEURL=${WP_HOME}/wp
+
+# Generate your keys here: https://roots.io/salts.html
+AUTH_KEY='+4&%gICf%Y!6a@9{f-cD@83+n9O-BeZ9mV^kM[xtpTfe1mPM*n1<`Ci=b/N:_8UM'
+SECURE_AUTH_KEY='UNKqx<R?2;yuo!Q^t5VtsVE)Yx|zAp2zbxVoDG4.Q3_EA8Pl7#9b&0=tE0C[kYG('
+LOGGED_IN_KEY='&`^1F(4G:4I)B936F|gpG3&Wy3Q0bUHPeMJ}do{g1s|vnS*Hv?]#%}X^(nb%dt;)'
+NONCE_KEY='0C&dy,G/XzlTW:W3<iK(3&Natm}yK`Rup#O9ARSl9>NtZ2hi7st.zncFtYjPcP1R'
+AUTH_SALT='Po.w/H<XF#1arX`OhLvMycdkYB;@p}n*nyCM)B,(Upm!}9sELQdQuCh:PX=DFmMe'
+SECURE_AUTH_SALT='wc3[wBX-5_4fmkt0C(_kCvlZyX%0.2cijP&0bb[):iYursbZUg=*!-fvj<t01`iG'
+LOGGED_IN_SALT='6O9[#ItUlWWLzs(DUwubuprn4%oyBXuR768n-O.&@BfyCOT#C:XExrs{pzDjr$0F'
+NONCE_SALT='|YZ9xy+Sk{D!K{RU:}Uu-eTdW20e{?gOyu]Jt-n|fDp_f@oB.5M!vehA)O:n$7B{'
