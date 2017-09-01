@@ -20,7 +20,7 @@
       <amp-img src="<?php bloginfo('url');?>/app/uploads/2017/09/iconmonstr-smartphone-3.svg" alt="Email Us" width="8.34" height="14.3" class="second"></amp-img>
       </span>
       <div class="contact-container phone-info-container">
-          858-461-8010
+          858.461.8010
       </div>
     </div>
   </form>
