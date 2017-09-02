@@ -294,6 +294,10 @@
     .column a {
         width: 28%;
     }
+
+    .section-four h1:nth-child(2) {
+        margin-bottom: initial;
+    }
 }
 .nf-form-wrap .ninja-forms-form-wrap{
     width: 91%;
