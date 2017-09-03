@@ -10,3 +10,39 @@ footer div p{
     font-size:12px;
     font-weight: 100;
 }
+
+a svg #facebook, 
+a svg #instagram, 
+a svg #github, 
+a svg #dribbble,
+a svg #twitter,
+a svg #linkedin {
+    transition: .2s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: .2s;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+a svg:hover #instagram {
+    fill: #CD486B;
+}
+
+a svg:hover #linkedin {
+    fill: #0077B5;
+}
+
+a svg:hover #github {
+    fill: #4078C0;
+}
+
+a svg:hover #facebook {
+    fill: #3B5998;
+}
+
+a svg:hover #twitter {
+    fill: #1DA1F2;
+}
+
+a svg:hover #dribbble {
+    fill: #EA4C89;
+}

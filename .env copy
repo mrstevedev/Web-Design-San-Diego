@@ -1,13 +1,13 @@
-DB_NAME=db_webdesignsd
-DB_USER=db_webdesignsd
-DB_PASSWORD=milf55
+DB_NAME=webdesignsandiego_steven
+DB_USER=webdesignsandieg
+DB_PASSWORD=W87QJrmT
 
 # Optional variables
-# DB_HOST=localhost
-# DB_PREFIX=wp_
+DB_HOST=mysql.webdesignsandiego.stevenpulido.com
+DB_PREFIX=wp_
 
 WP_ENV=development
-WP_HOME=http://webdesignsandiego.dev
+WP_HOME=http://webdesignsandiego.stevenpulido.com
 WP_SITEURL=${WP_HOME}/wp
 
 # Generate your keys here: https://roots.io/salts.html

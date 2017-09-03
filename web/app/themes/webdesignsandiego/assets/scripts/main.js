@@ -19,6 +19,13 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+
+        // Yelp Authentication Credentials
+        var clientID = 'S4nFFgSD6bUm7Zuxrqz5Lw';
+        var clientSecret = 'MiIQyIgaNYwcN1avfwYGRx5jPmdpYCL0KZWrgvnRB5HB9lMQHjt9tJMso4NnSWvF';
+        //https://api.yelp.com/oauth2/token?grant_type=OAuth2&client_secret=MiIQyIgaNYwcN1avfwYGRx5jPmdpYCL0KZWrgvnRB5HB9lMQHjt9tJMso4NnSWvF&client_id=S4nFFgSD6bUm7Zuxrqz5Lw
+        
+
         $(window).resize(function() {
           /*If browser resized, check width again */
           if ($(window).width() < 514) {
@@ -32,7 +39,7 @@
          // sticky back to top
          $(window).scroll(function(){
           var scrollPos = $(window).scrollTop();
-          if(scrollPos >= 800){
+          if(scrollPos >= 797){
             $('.back-to-top').addClass('fixed animated fadeInRight show');
               
           } else if(scrollPos < 800){

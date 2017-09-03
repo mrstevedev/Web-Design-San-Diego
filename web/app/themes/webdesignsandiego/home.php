@@ -38,6 +38,14 @@
       </div>
       </section>
   </section>
+  <div class="arrow-down">
+      <button class="arrow right sectionTwoBtn1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
+          <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
+        0.375,0.375 45.63,38.087 0.375,75.8 "/>
+        </svg>
+      </button>
+    </div>
 </div>
 
 <div id="section-three" class="section-two">
@@ -59,7 +67,7 @@
 </section>
   <div class="arrow-down">
       <button class="arrow right sectionTwoBtn1">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 80" xml:space="preserve">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
         0.375,0.375 45.63,38.087 0.375,75.8 "/>
         </svg>
@@ -68,10 +76,59 @@
 </div>
 
 <div id="section-four" class="section-three">
-  <section class="container">section three</section>
+  <section class="col-lg-12">
+    <div class="container">
+    <section class="blog-preview-left column col-lg-6">
+
+      <!-- Use WPQuery to grab the latest post and display it in thi section only -->
+      <?php 
+
+        $featuredArgs = array(
+          'post_type' => 'post',
+          'category_name' => 'featured',
+          'posts_per_page' => 1
+        );
+
+        $featuredQuery = new WP_Query( $featuredArgs );
+
+        while( $featuredQuery->have_posts() ){
+          $featuredQuery->the_post();
+          get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); 
+          
+        }
+      
+      ?>
+     
+    </section>
+
+    <section class="blog-preview-right column col-lg-6">
+      <div class="container">
+
+        <?php 
+        
+        $args = array(
+          'post_type'=>'post',
+          'posts_per_page' => 2
+        );
+
+
+        $query = new WP_Query( $args );
+
+        while( $query->have_posts() ){
+          $query->the_post();
+          get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format());           
+        }
+        
+        
+        ?>
+     
+      </div>
+    </section>
+    </div>
+  </section>
   <div class="arrow-down">
       <button class="arrow right sectionTwoBtn1">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 80" xml:space="preserve">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
         0.375,0.375 45.63,38.087 0.375,75.8 "/>
         </svg>
@@ -93,7 +150,7 @@
     </section>
   </section>
 </div>
-<a href="#0" class="backtotopBtn cd-top">
+<a href="#" class="backtotopBtn cd-top">
   <div class="back-to-top">
       <i class="svg-triangle" aria-hidden="true"></i>
   </div>

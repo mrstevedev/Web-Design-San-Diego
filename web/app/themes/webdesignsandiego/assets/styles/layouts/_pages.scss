@@ -60,6 +60,30 @@
     font-size: 37px;
 }
 
+.seciton-three header{
+    height:0;
+}
+
+.section-three .column p {
+    color:#FFF;
+    font-family: 'Helvetica Neue';
+    line-height:19px;
+}
+
+.section-three .column a{
+    float: none;
+    position: initial;
+    width: auto;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section-three .blog-preview-right h2{
+    font-size: 21px;
+    margin: 0;
+} 
+
 .section-four .nf-form-cont{
     clear:left;
 }
@@ -74,7 +98,7 @@
     transition: .4s ease-in-out;
   }
 
-  .column:hover{
+  .section-two .column:hover{
       background:#121212;
   }
 
@@ -89,12 +113,12 @@
   .column a {
       float:right;
       position: relative;
-      display: block;
+      display: inline-block;
       cursor: pointer;
       width: 14%;
   }
 
-  .column a:before, .column a:after {
+  .section-two .column a:before, .section-two  .column a:after {
     content: '';
     position: absolute;
     width: 0%;
@@ -104,25 +128,34 @@
     background: #fff;
   }
   
-  .column a:before {
+  .section-two .column a:before {
     left: -2.5px;
   }
-  .column a:after {
+  .section-two  .column a:after {
     right: 2.5px;
     background: #fff;
     transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
   }
   
-  .column a:hover:before {
+  .section-two  .column a:hover:before {
     background: #fff;
     width: 100%;
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
   }
   
-  .column a:hover:after {
+  .section-two  .column a:hover:after {
     background: transparent;
     width: 100%;
     transition: 0s;
+  }
+
+  .section-three header{
+      display: initial; 
+  }
+
+  .updated{
+      font-family: 'Oswald';
+      text-transform: uppercase;
   }
 
   .column p{
@@ -130,7 +163,7 @@
     line-height: 60px;    
   }
 
-  .column .container {
+  .section-two .column .container {
     width: 70%;
 }
 
@@ -297,6 +330,14 @@
 
     .section-four h1:nth-child(2) {
         margin-bottom: initial;
+    }
+
+    .social-svg-list {
+        display: none;
+    }
+    
+    .section-four section {
+        margin: 30px 0;
     }
 }
 .nf-form-wrap .ninja-forms-form-wrap{
