@@ -108,7 +108,8 @@
         
         $args = array(
           'post_type'=>'post',
-          'posts_per_page' => 2
+          'posts_per_page' => 2,          
+          'category__not_in' => array( 3 )
         );
 
 
@@ -116,9 +117,8 @@
 
         while( $query->have_posts() ){
           $query->the_post();
-          get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format());           
+          get_template_part('templates/content', get_post_format() );           
         }
-        
         
         ?>
      
