@@ -10,7 +10,7 @@ ul#primary-navigation{
 }
 
 ul#primary-navigation li{
-    padding-left: 59px;
+    padding-left: 57px;
 }
 ul#primary-navigation li a{
     font-family: 'Economica';
@@ -62,6 +62,47 @@ ul#primary-navigation li a{
 }
 }
 
+@media(width: 320px){
+    h1 {
+        font-size: 22px;
+        line-height: 13px;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 14px;
+    }
+
+    .section-two .column .container,
+    .section-two .column a {
+        width: initial!important;
+    }
+
+    .contact-column-left h1 {
+        font-size: 19px!important;
+        line-height: 21px!important;
+    }
+
+    .section-four h1:nth-child(2) {
+        line-height: 25px!important;
+     
+    }
+
+}
+
+@media(width: 375px){
+    h1 {
+        font-size: 29px;
+        line-height: 21px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+}
+
 @media(max-width:517px){
     .form-inline{
         display: none;
@@ -80,6 +121,10 @@ ul#primary-navigation li a{
 
     .navbar {
         padding: .5rem 1rem;
+    }
+
+    ul#primary-navigation {   
+        padding: 20px;
     }
 }
 

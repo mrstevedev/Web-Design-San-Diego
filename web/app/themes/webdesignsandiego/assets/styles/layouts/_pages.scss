@@ -68,6 +68,7 @@
     color:#FFF;
     font-family: 'Helvetica Neue';
     line-height:19px;
+    font-weight:200;
 }
 
 .section-three .column a{
@@ -77,6 +78,12 @@
     font-family: 'Oswald';
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.section-three .blog-preview-left h2{
+    border-bottom: solid 7px;
+    width: 100%;
+    line-height: 56px;
 }
 
 .section-three .blog-preview-right h2{
@@ -96,6 +103,7 @@
     align-items: center;
     text-align: left;
     transition: .4s ease-in-out;
+    overflow: hidden;
   }
 
   .section-two .column:hover{
@@ -152,6 +160,10 @@
   .section-three header{
       display: initial; 
   }
+
+  .post header {
+    height: initial;
+}
 
   .updated{
       font-family: 'Oswald';
@@ -215,10 +227,6 @@
 .nf-field-label:focus{
     opacity:1!important;
     color:#fff;
-}
-
-#nf-field-11:hover{
-    border-bottom:0!important;
 }
 
   .ninja-forms-field{

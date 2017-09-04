@@ -59,8 +59,21 @@ h3:after{
     }
 
     h2 {
-        font-size: 28px;
-        line-height: 28px;      
+        font-size: 29px;
+        line-height: 28px;     
+    }
+
+    .arrow-down {
+        bottom: 0;
+    }
+
+    .box {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .submit-container{
+        margin-bottom: 0px;
     }
 }
 

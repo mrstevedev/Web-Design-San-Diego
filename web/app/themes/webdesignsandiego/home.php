@@ -39,7 +39,7 @@
       </section>
   </section>
   <div class="arrow-down">
-      <button class="arrow right sectionTwoBtn1">
+      <button class="arrow right sectionTwoBtn3">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
         0.375,0.375 45.63,38.087 0.375,75.8 "/>
@@ -66,7 +66,7 @@
 </section>
 </section>
   <div class="arrow-down">
-      <button class="arrow right sectionTwoBtn1">
+      <button class="arrow right sectionThreeBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
         0.375,0.375 45.63,38.087 0.375,75.8 "/>
@@ -112,7 +112,6 @@
           'category__not_in' => array( 3 )
         );
 
-
         $query = new WP_Query( $args );
 
         while( $query->have_posts() ){
@@ -127,7 +126,7 @@
     </div>
   </section>
   <div class="arrow-down">
-      <button class="arrow right sectionTwoBtn1">
+      <button class="arrow right sectionFourBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
         0.375,0.375 45.63,38.087 0.375,75.8 "/>
@@ -138,12 +137,12 @@
 
 <div id="section-five" class="section-four">
   <section class="container">
-    <section class="col-lg-7 contact-column-left">
+    <section class="col-lg-8 contact-column-left">
       <h1>Have An Idea? A Project in Mind?</h1>
       <h1>Let's Chat</h1>
       <?php  Ninja_Forms()->display( 3 ); ?> 
     </section>
-    <section class="col-lg-5 contact-column-right">
+    <section class="col-lg-4 contact-column-right">
       <p class="local">Your local Marketing Agency. San Diego, CA 92104</p>
       <p class="phone-contact">858.461.8010</p>
       <p class="email-contact"><a href="mailto:info@webdesignsandiego.com">info@webdesignsandiego.com</a></p>

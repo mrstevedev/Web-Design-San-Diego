@@ -28,11 +28,18 @@
 
         $(window).resize(function() {
           /*If browser resized, check width again */
-          if ($(window).width() < 514) {
-           $('.nf-field-container').removeClass('one-third');
+          if ($(window).width() < 575) {
+           $('#nf-field-5-container, #nf-field-6-container, #nf-field-7-container').removeClass('one-third');
+           $('#nf-field-9-container, #nf-field-10-container').removeClass('one-fourth');
+           $('#nf-field-11-container').removeClass('one-half');
+           
           }
           else { 
-            $('.nf-field-container').addClass('one-third');
+            $('#nf-field-5-container, #nf-field-6-container, #nf-field-7-container').addClass('one-third');
+            $('#nf-field-9-container, #nf-field-10-container').addClass('one-fourth');
+            $('#nf-field-11-container').addClass('one-half');
+            
+            
          }
         });
 
@@ -45,10 +52,6 @@
           } else if(scrollPos < 800){
             $('.back-to-top').removeClass('fadeInRight show');
           }
-
-          // else if(scrollPos < 150){
-          //   $('header').addClass('animated fadeInDown').css('background','rgba(255,255,255, 0)');
-          // }
         });
 
         //  end sticky navigation
@@ -59,25 +62,56 @@
         
         var sectionTwoBtn1 = document.querySelector('.sectionTwoBtn1'); 
         var sectionTwoBtn2 = document.querySelector('.sectionTwoBtn2'); 
+        var sectionThreeBtn1 = document.querySelector('.sectionThreeBtn1');
+        var sectionThreeBtn2 = document.querySelector('.sectionThreeBtn2');
+        var sectionFourBtn1 = document.querySelector('.sectionFourBtn1');
+        var sectionFourBtn2 = document.querySelector('.sectionFourBtn2');
+
+
         var sectionOne = document.querySelector('.section-one');
         var sectionTwo = document.querySelector('.section-two');    
+        var sectionThree = document.querySelector('.section-three');
+        var sectionFour = document.querySelector('.section-four');
         
         var backToTopBtn = document.querySelector('.backtotopBtn');
         
         var backToTopHandler = function(event){
             event.preventDefault();
-                smoothScroll(sectionOne, '800');
+            smoothScroll(sectionOne, '800');
         };
         backToTopBtn.addEventListener('click', backToTopHandler);
         
         var sectionTwoHandler = function(event) {
-          event.preventDefault();
-         
+          event.preventDefault();        
           smoothScroll(sectionTwo, '1500');
         };
 
+        var sectionThreeHandler = function(event){
+          event.preventDefault();
+          smoothScroll(sectionThree,'1500');
+        }
+
+        var sectionThreeHandler2 = function(event){
+          event.preventDefault();
+          smoothScroll(sectionThree, '1500');
+        }
+
+        var sectionFourHandler = function(event){
+          event.preventDefault();
+          smoothScroll(sectionFour, '1500');
+        }
+
+        var sectionFourHandler2 = function(event){
+          event.preventDefault();
+          smoothScroll(sectionFour, '1500');
+        }
+
         sectionTwoBtn1.addEventListener('click', sectionTwoHandler);
         sectionTwoBtn2.addEventListener('click', sectionTwoHandler);
+        sectionThreeBtn1.addEventListener('click', sectionThreeHandler);
+        sectionThreeBtn2.addEventListener('click', sectionThreeHandler2);
+        sectionFourBtn1.addEventListener('click', sectionFourHandler);
+        sectionFourBtn2.addEventListener('click', sectionFourHandler2);
 
 
         
