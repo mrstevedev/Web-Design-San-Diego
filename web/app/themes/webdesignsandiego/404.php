@@ -1,8 +1,8 @@
-<?php get_template_part('templates/page', 'header'); ?>
-
-<div class="container">
-  <div class="alert alert-warning">
-    <?php _e('Sorry, but the page you were trying to view does not exist.', 'sage'); ?>
-  </div>
+<div class="container 404-error animated fadeIn">
+  <h1>404</h1>
+  <h2>Page Not Found</h2>
+  <p class="page-error">Sorry, the page you requested does not exist<br />
+    Try searching for what you are looking for here 
+  </p>
   <?php get_search_form(); ?>
 </div>

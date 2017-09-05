@@ -57,6 +57,8 @@
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+
+        $('.comment-form-comment label').html('Submit your comment');
         
         var sectionTwoBtn1 = document.querySelector('.sectionTwoBtn1'); 
         var sectionTwoBtn2 = document.querySelector('.sectionTwoBtn2'); 

@@ -359,6 +359,17 @@
         max-width: initial!important;
         float: initial!important;
     }
+
+    aside.sidebar-primary {
+        float: none;
+        padding-top: initial;
+        width: initial;
+    }
+
+    .page-error {
+        font-size: 15px!important;
+        width: initial!important;
+    }
 }
 .nf-form-wrap .ninja-forms-form-wrap{
     width: 91%;
@@ -412,8 +423,46 @@
     background-repeat: no-repeat;
     background-position: 115px 8px;
     background-size: 12px;
+    float: right;    
 }
 
 .comment-form input[type=submit]:focus{
+    box-shadow: none;
+}
+
+.search .main, 
+.error404 .main{
+    padding: 90px;
+    height: 200vh;
+}
+
+.error404 input.search-field {
+    width: 235px!important;
+}
+
+//Error Page Styles
+.error404 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+}
+
+.error404 .container h1{
+    font-size: 130px;
+    color: #213653;
+    line-height: 120px;
+}
+
+.page-error{
+    font-family: 'Economica';
+    font-size: 18px;
+    width: 25%;
+    text-align: center;
+    line-height: 20px;    
+}
+
+.search-form .search-submit:focus{
     box-shadow: none;
 }
