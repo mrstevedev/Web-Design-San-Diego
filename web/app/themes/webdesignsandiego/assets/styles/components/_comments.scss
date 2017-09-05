@@ -21,6 +21,7 @@
 #comment {
   background: #283D5A;
   border: 0;
+  color: #fff;
 }
 
 .comment-meta{
@@ -36,15 +37,63 @@
 
 .single-post article.post{
   padding:100px;
-  max-width: 70%;
+  max-width: 72%;
   float:left;
 }
 
 aside.sidebar-primary{
   float:left;
   padding-top:100px;
+  width: 27%;
 }
 
 aside.sidebar-primary h3:after{
   content: initial;
+}
+
+
+.comments h2 {
+  font-family: 'Oswald';
+  font-weight: bold;
+}
+
+.comment-content p{
+  font-size: .9rem;
+}
+
+.sidebar-primary h3{
+  font-family: 'Oswald';
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.sidebar-primary .widget ul li{
+  list-style-image: url(http://webdesignsandiego.dev/app/uploads/2017/09/iconmonstr-arrow-25.svg);
+  height: 40px;
+  transition: .35s ease all;
+  padding: 7px;
+  font-family: 'Economica';
+}
+
+.sidebar-primary ul li:hover {
+  background: #324969;
+}
+
+input.search-field{
+  background:#324969!important;
+  border-radius: 0!important;
+  border:0!important;
+}
+
+.search-form .search-submit {
+  color: #151515;
+  background-color: #97BFD9;
+  border:0;
+  border-radius: 0;
+  font-size:12px;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-weight: bold;
 }

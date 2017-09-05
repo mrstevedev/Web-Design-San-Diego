@@ -32,3 +32,7 @@ function cc_mime_types($mimes=array()) {
   return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types', 1, 1);
+
+wp_list_comments( array(
+  'avatar_size' => 100,
+) );
