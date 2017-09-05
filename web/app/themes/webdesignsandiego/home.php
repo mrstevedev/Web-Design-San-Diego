@@ -1,7 +1,7 @@
 <?php /*Template Name: Home Template */ ?>
 
 <!-- The Homepage is comprised of four sections -->
-<div id="section-one" class="section-one">
+<div id="section-one" class="section-one animated fadeIn">
   <section class="container">
     <h1>San Diego Web Design</h1>
     <h1>An Innovative Digital Agency</h1>
@@ -9,7 +9,7 @@
     <a href="<?php bloginfo('url')?>/learn-more" title="Click here to learn more" class="btn learn-more box curmudgeon">Learn More</a>
   </section>
 
-    <?php  Ninja_Forms()->display( 2 ); ?>
+    </section><?php  Ninja_Forms()->display( 2 ); ?>
 
     <div class="arrow-down">
       <button class="arrow right sectionTwoBtn1">
@@ -48,7 +48,7 @@
     </div>
 </div>
 
-<div id="section-three" class="section-two">
+<div id="section-three" class="section-two section-two-btm">
 <section class="column-top col-lg-12">
 <section class="left-side column col-lg-6">
       <div class="container">

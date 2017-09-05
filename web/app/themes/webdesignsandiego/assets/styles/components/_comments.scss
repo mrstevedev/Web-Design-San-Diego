@@ -17,3 +17,34 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+#comment {
+  background: #283D5A;
+  border: 0;
+}
+
+.comment-meta{
+  background:transparent;
+  text-align: left;
+  height: initial;
+}
+
+.comment-metadata{
+  font-family: 'Oswald';
+  font-size:13px;
+}
+
+.single-post article.post{
+  padding:100px;
+  max-width: 70%;
+  float:left;
+}
+
+aside.sidebar-primary{
+  float:left;
+  padding-top:100px;
+}
+
+aside.sidebar-primary h3:after{
+  content: initial;
+}

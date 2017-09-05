@@ -37,9 +37,7 @@
           else { 
             $('#nf-field-5-container, #nf-field-6-container, #nf-field-7-container').addClass('one-third');
             $('#nf-field-9-container, #nf-field-10-container').addClass('one-fourth');
-            $('#nf-field-11-container').addClass('one-half');
-            
-            
+            $('#nf-field-11-container').addClass('one-half');                      
          }
         });
 
@@ -62,6 +60,7 @@
         
         var sectionTwoBtn1 = document.querySelector('.sectionTwoBtn1'); 
         var sectionTwoBtn2 = document.querySelector('.sectionTwoBtn2'); 
+        var sectionTwoBtn3 = document.querySelector('.sectionTwoBtn3');
         var sectionThreeBtn1 = document.querySelector('.sectionThreeBtn1');
         var sectionThreeBtn2 = document.querySelector('.sectionThreeBtn2');
         var sectionFourBtn1 = document.querySelector('.sectionFourBtn1');
@@ -69,7 +68,8 @@
 
 
         var sectionOne = document.querySelector('.section-one');
-        var sectionTwo = document.querySelector('.section-two');    
+        var sectionTwo = document.querySelector('.section-two');  
+        var sectionTwoBtm = document.querySelector('.section-two-btm');
         var sectionThree = document.querySelector('.section-three');
         var sectionFour = document.querySelector('.section-four');
         
@@ -85,6 +85,11 @@
           event.preventDefault();        
           smoothScroll(sectionTwo, '1500');
         };
+
+        var sectionTwoHandlerBtm = function(event){
+          event.preventDefault();
+          smoothScroll(sectionTwoBtm, '1500');
+        }
 
         var sectionThreeHandler = function(event){
           event.preventDefault();
@@ -108,6 +113,7 @@
 
         sectionTwoBtn1.addEventListener('click', sectionTwoHandler);
         sectionTwoBtn2.addEventListener('click', sectionTwoHandler);
+        sectionTwoBtn3.addEventListener('click', sectionTwoHandlerBtm);
         sectionThreeBtn1.addEventListener('click', sectionThreeHandler);
         sectionThreeBtn2.addEventListener('click', sectionThreeHandler2);
         sectionFourBtn1.addEventListener('click', sectionFourHandler);

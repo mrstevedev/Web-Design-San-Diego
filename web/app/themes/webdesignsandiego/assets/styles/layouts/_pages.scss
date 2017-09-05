@@ -170,9 +170,11 @@
       text-transform: uppercase;
   }
 
-  .column p{
-    color: #9DB7C9;
-    line-height: 60px;    
+  .section-two .column p{
+    color: #9db7c9;
+    line-height: 25px;
+    font-size: 23px;
+    font-weight: 100;   
   }
 
   .section-two .column .container {
@@ -377,3 +379,10 @@
     display: inline;
 }
 
+// article.post {
+//     border-bottom: solid 1px;
+// }
+
+.entry-content p span {
+    color: #FFF!important;
+}
