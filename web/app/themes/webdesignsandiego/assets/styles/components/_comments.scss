@@ -74,6 +74,10 @@ aside.sidebar-primary h3:after{
   text-transform: uppercase;
 } 
 
+.comment-reply-title:after{
+  content:initial!important;
+}
+
 .sidebar-primary h3{
   font-family: 'Oswald';
   font-size: 25px;

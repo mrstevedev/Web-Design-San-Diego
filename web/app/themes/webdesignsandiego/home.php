@@ -23,6 +23,14 @@
 
 <div id="section-two" class="section-two">
   <section class="column-top col-lg-12">
+    <section class="left-side over column col-lg-6">
+      <div class="container">
+        <h1>We Have the Technical Covered.</h1>
+        <p>We can deliver web applications in various modern technologies.</p>
+        <p>Wordpress, PHP, Ruby on Rails, Javascript, ReactJS, AngularJS,  VueJS.</p>
+        <span class="strikethrough"></span><a href="">Learn More</a>
+      </div>
+    </section>
     <section class="left-side column col-lg-6">
       <div class="container">
         <h1>Web Development</h1>

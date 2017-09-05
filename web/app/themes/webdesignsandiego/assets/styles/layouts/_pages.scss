@@ -157,6 +157,29 @@
     transition: 0s;
   }
 
+  .section-two .over{
+    position: absolute;
+    z-index: 3;
+    background: #fff;
+    display: none;
+  }
+
+  .section-two .over h1{
+    color: #000;
+  }
+
+  .section-two .over p {
+    color: #000000!important;
+}
+
+.section-two .over a {
+    color:#000;
+}
+
+  .section-two .over .strikethrough{
+    background: #000;    
+  }
+
   .section-three header{
       display: initial; 
   }
