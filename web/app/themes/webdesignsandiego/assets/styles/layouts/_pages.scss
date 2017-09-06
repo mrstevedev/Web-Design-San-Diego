@@ -160,25 +160,29 @@
   .section-two .over{
     position: absolute;
     z-index: 3;
-    background: #fff;
-    display: none;
+    background: #2B4160;
+    // display: none;
+  }
+  section.right-side.over.column.col-lg-6{
+      right:0;
   }
 
   .section-two .over h1{
-    color: #000;
+    color: #fff;
+    font-size: 34px;    
   }
 
   .section-two .over p {
-    color: #000000!important;
+    color: #fff!important;
 }
 
 .section-two .over a {
-    color:#000;
+    color: #fff;
 }
 
   .section-two .over .strikethrough{
-    background: #000;    
-  }
+    background: #fff;
+}
 
   .section-three header{
       display: initial; 

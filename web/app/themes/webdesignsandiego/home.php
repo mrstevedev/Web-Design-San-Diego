@@ -38,6 +38,7 @@
         <span class="strikethrough"></span><a href="">Learn More</a>
       </div>
     </section>
+   
     <section class="right-side column col-lg-6">
       <div class="container">
       <h1>Search Engine Optimization</h1>
@@ -45,6 +46,14 @@
         <span class="strikethrough"></span><a href="">Learn More</a>
       </div>
       </section>
+      <section class="right-side over column col-lg-6">
+      <div class="container">
+        <h1>We Know How to get you Visible.</h1>
+        <p>We can deliver web applications in various modern technologies.</p>
+        <p>Wordpress, PHP, Ruby on Rails, Javascript, ReactJS, AngularJS,  VueJS.</p>
+        <span class="strikethrough"></span><a href="">Learn More</a>
+      </div>
+    </section>
   </section>
   <div class="arrow-down">
       <button class="arrow right sectionTwoBtn3">

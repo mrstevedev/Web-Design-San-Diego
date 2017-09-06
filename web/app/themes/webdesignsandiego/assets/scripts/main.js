@@ -91,27 +91,27 @@
         var sectionTwoHandlerBtm = function(event){
           event.preventDefault();
           smoothScroll(sectionTwoBtm, '1500');
-        }
+        };
 
         var sectionThreeHandler = function(event){
           event.preventDefault();
           smoothScroll(sectionThree,'1500');
-        }
+        };
 
         var sectionThreeHandler2 = function(event){
           event.preventDefault();
           smoothScroll(sectionThree, '1500');
-        }
+        };
 
         var sectionFourHandler = function(event){
           event.preventDefault();
           smoothScroll(sectionFour, '1500');
-        }
+        };
 
         var sectionFourHandler2 = function(event){
           event.preventDefault();
           smoothScroll(sectionFour, '1500');
-        }
+        };
 
         sectionTwoBtn1.addEventListener('click', sectionTwoHandler);
         sectionTwoBtn2.addEventListener('click', sectionTwoHandler);
@@ -121,15 +121,6 @@
         sectionFourBtn1.addEventListener('click', sectionFourHandler);
         sectionFourBtn2.addEventListener('click', sectionFourHandler2);
 
-
-        
-        
-        // grab an element
-        var myElement = document.querySelector("header");
-        // construct an instance of Headroom, passing the element
-        var headroom  = new Headroom(myElement);
-        // initialise
-        headroom.init(); 
       }
     },
     // Home page
