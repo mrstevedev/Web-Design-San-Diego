@@ -1,5 +1,9 @@
 <?php /*Template Name: Home Template */ ?>
+<?php
+// Pull Yelp reviews here at the first section.
 
+
+?>
 <!-- The Homepage is comprised of four sections -->
 <div id="section-one" class="section-one animated fadeIn">
   <section class="container">
@@ -9,7 +13,7 @@
     <a href="<?php bloginfo('url')?>/learn-more" title="Click here to learn more" class="btn learn-more box curmudgeon">Learn More</a>
   </section>
 
-    </section><?php  Ninja_Forms()->display( 2 ); ?>
+  </section><?php  Ninja_Forms()->display( 2 ); ?>
 
     <div class="arrow-down">
       <button class="arrow right sectionTwoBtn1">
@@ -23,19 +27,18 @@
 
 <div id="section-two" class="section-two">
   <section class="column-top col-lg-12">
-    <section class="left-side over column col-lg-6">
+    <section class="left-side left-side-top-left over column col-lg-6">
       <div class="container">
         <h1>We Have the Technical Covered.</h1>
-        <p>We can deliver web applications in various modern technologies.</p>
-        <p>Wordpress, PHP, Ruby on Rails, Javascript, ReactJS, AngularJS,  VueJS.</p>
-        <span class="strikethrough"></span><a href="">Learn More</a>
+        <p>We can deliver web applications in various modern technologies. <span class="highlite-blue">Wordpress, PHP, Ruby on Rails, Javascript, ReactJS, AngularJS,  VueJS. </span></p>
+        <span class="strikethrough"></span><a href="#" class="backBtn-top-left">Go Back</a>
       </div>
     </section>
     <section class="left-side column col-lg-6">
       <div class="container">
         <h1>Web Development</h1>
         <p>We have the technical covered for you.</p>
-        <span class="strikethrough"></span><a href="">Learn More</a>
+        <span class="strikethrough"></span><a href="#" class="learn-more-btn-top-left">Learn More</a>
       </div>
     </section>
    
@@ -43,15 +46,14 @@
       <div class="container">
       <h1>Search Engine Optimization</h1>
         <p>Something here about SEO best practices.</p>
-        <span class="strikethrough"></span><a href="">Learn More</a>
+        <span class="strikethrough"></span><a href="#" class="learn-more-btn-top-right">Learn More</a>
       </div>
       </section>
-      <section class="right-side over column col-lg-6">
+      <section class="right-side right-side-top-right over column col-lg-6">
       <div class="container">
         <h1>We Know How to get you Visible.</h1>
-        <p>We can deliver web applications in various modern technologies.</p>
-        <p>Wordpress, PHP, Ruby on Rails, Javascript, ReactJS, AngularJS,  VueJS.</p>
-        <span class="strikethrough"></span><a href="">Learn More</a>
+        <p>Something here about SEO and how we can do this and that.</p>
+        <span class="strikethrough"></span><a href="#" class="backBtn-top-right">Go Back</a>
       </div>
     </section>
   </section>
@@ -67,20 +69,34 @@
 
 <div id="section-three" class="section-two section-two-btm">
 <section class="column-top col-lg-12">
+<section class="left-side left-side-btm-left over column col-lg-6">
+      <div class="container">
+        <h1>Something here about Paid Advertising.</h1>
+        <p>Something here about paid advertising & pay per click advertising. .</p>
+        <span class="strikethrough"></span><a href="#" class="backBtn-btm-left">Back</a>
+      </div>
+    </section>
 <section class="left-side column col-lg-6">
       <div class="container">
         <h1>PAID ADVERTISING, PPC</h1>
         <p>We have the technical covered for you.</p>
-        <span class="strikethrough"></span><a href="">Learn More</a>
+        <span class="strikethrough"></span><a href="#" class="learn-more-btn-btm-left">Learn More</a>
       </div>
 </section>
 <section class="right-side column col-lg-6">
 <div class="container">
         <h1>HOSTING/MAINTANENCE</h1>
         <p>We do hosting. More here about how we do hosting & something about maintenance.</p>
-        <span class="strikethrough"></span><a href="">Learn More</a>
+        <span class="strikethrough"></span><a href="#" class="learn-more-btn-btm-right">Learn More</a>
       </div>
 </section>
+<section class="right-side right-side-btm-right over column col-lg-6">
+      <div class="container">
+        <h1>Something here about Hosting/Maintenence.</h1>
+        <p>More here about Hosting/Maintenence.</p>
+        <span class="strikethrough"></span><a href="#" class="backBtn-btm-right">Go Back</a>
+      </div>
+    </section>
 </section>
   <div class="arrow-down">
       <button class="arrow right sectionThreeBtn1">

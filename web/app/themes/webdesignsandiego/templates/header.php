@@ -1,7 +1,7 @@
 <header class="banner fixed-top">
-  <div class="container">   
+  <div class="container-fluid">   
     <nav class="navbar nav-primary navbar-expand-md navbar-light" data-theme="white" aria-label="Primary">
-        <a class="brand logo col-3 col-lg-4" href="<?= esc_url(home_url('/')); ?>">
+        <a class="brand logo col-3 col-sm-3 col-lg-5" href="<?= esc_url(home_url('/')); ?>">
           <amp-img src="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg" alt="Welcome" width="82" height="50"></amp-img>
         </a>  
         

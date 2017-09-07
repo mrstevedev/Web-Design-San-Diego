@@ -3,6 +3,7 @@
 // Section One
 #section-one{
     background-color: #2B4160;
+    background-image:url('/app/uploads/2017/09/WebDesignSanDiego-cyanotype.jpg');
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -106,9 +107,9 @@
     overflow: hidden;
   }
 
-  .section-two .column:hover{
-      background:#121212;
-  }
+//   .section-two .column:hover{
+//       background:#121212;
+//   }
 
   .column-top {
       padding:0;
@@ -161,7 +162,7 @@
     position: absolute;
     z-index: 3;
     background: #2B4160;
-    // display: none;
+    display: none;
   }
   section.right-side.over.column.col-lg-6{
       right:0;
@@ -397,6 +398,10 @@
         font-size: 15px!important;
         width: initial!important;
     }
+
+    .post header{
+        margin-top: 75px;        
+    }
 }
 .nf-form-wrap .ninja-forms-form-wrap{
     width: 91%;
@@ -473,7 +478,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 35%;
+    height: 60vh;
 }
 
 .error404 .container h1{

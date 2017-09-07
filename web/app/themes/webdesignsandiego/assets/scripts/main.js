@@ -126,10 +126,63 @@
     // Home page
     'home': {
       init: function() {
-        // JavaScript to be fired on the home page
+        // JavaScript to be fired on the home page      
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
+        $('.learn-more-btn-top-left').on('click', function(event){
+          event.preventDefault();
+          $('.left-side-top-left.over').addClass('animated fadeInLeft flex-show').removeClass('fadeOutLeft');                  
+        });
+        
+        $('.left-side-top-left .backBtn-top-left').on('click', function(event){
+          event.preventDefault(); 
+          $('.left-side-top-left.over').removeClass('fadeInLeft').addClass('fadeOutLeft');
+        });
+
+
+
+        $('.learn-more-btn-top-right').on('click', function(event){
+          event.preventDefault();
+          $('.right-side-top-right.over').addClass('animated fadeInRight flex-show').removeClass('fadeOutRight');                  
+        });
+        
+        $('.right-side-top-right .backBtn-top-right').on('click', function(event){
+          event.preventDefault(); 
+          $('.right-side-top-right.over').removeClass('fadeInRight').addClass('fadeOutRight');
+        });
+
+        //bottom left
+
+        $('.learn-more-btn-btm-left').on('click', function(event){
+          event.preventDefault();
+          $('.left-side-btm-left.over').addClass('animated fadeInLeft flex-show').removeClass('fadeOutLeft');                  
+        });
+        
+        $('.left-side-btm-left .backBtn-btm-left').on('click', function(event){
+          event.preventDefault(); 
+          $('.left-side-btm-left.over').removeClass('fadeInLeft').addClass('fadeOutLeft');
+        });
+
+        // end bottom left
+
+
+        //bottom right
+
+        $('.learn-more-btn-btm-right').on('click', function(event){
+          event.preventDefault();
+          $('.right-side-btm-right.over').addClass('animated fadeInRight flex-show').removeClass('fadeOutRight');                  
+        });
+        
+        $('.right-side-btm-right .backBtn-btm-right').on('click', function(event){
+          event.preventDefault(); 
+          console.log('back button bottom right clicked');
+          $('.right-side-btm-right.over').removeClass('fadeInRight').addClass('fadeOutRight');
+        });
+
+        // end bottom right
+
+        
       }
     },
     // About us page, note the change from about-us to about_us.
