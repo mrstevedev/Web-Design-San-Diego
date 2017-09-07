@@ -50,9 +50,21 @@
           } else if(scrollPos < 800){
             $('.back-to-top').removeClass('fadeInRight show');
           }
+
+          if(scrollPos <= 720){
+            $('header').addClass('animated fadeIn')
+              .css('background','rgba(43,65,96, 0)')
+          }
+            else {
+              $('header').addClass('animated fadeIn')
+                .css('background','rgba(43,65,96, 1)');
+            }
         });
 
         //  end sticky navigation
+
+
+        
 
       },
       finalize: function() {
