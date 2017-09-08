@@ -1,24 +1,32 @@
 <header class="banner fixed-top">
   <div class="container-fluid">   
     <nav class="navbar nav-primary navbar-expand-md navbar-light" data-theme="white" aria-label="Primary">
-        <a class="brand logo col-3 col-sm-3 col-lg-1" href="<?= esc_url(home_url('/')); ?>">
-          <amp-img src="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg" alt="Welcome" width="82" height="50"></amp-img>
+        <a class="brand logo col-2 col-sm-3 col-lg-1" href="<?= esc_url(home_url('/')); ?>">
+          <amp-img 
+            src="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg"
+            srcset="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg 72w",
+            alt="Welcome" 
+            width="82" 
+            height="50"
+            layout="responsive">
+          </amp-img>
         </a>  
         
     <!-- Contact Info Again -->
-    <form class="form-inline">
+    <form class="form-inline col-7">
     <div class="input-group">
-      <span class="input-group-addon" id="basic-addon1">
-        <amp-img src="<?php bloginfo('url');?>/app/uploads/2017/09/iconmonstr-email-2.svg" alt="Email Us" width="12.77" height="9.57" class="first"></amp-img>
-      </span>
+      <!-- <span class="input-group-addon" id="basic-addon1">
+        <amp-img src="<?php //bloginfo('url');?>/app/uploads/2017/09/iconmonstr-email-2.svg" alt="Email Us" width="12.77" height="9.57" class="first"></amp-img>
+      </span> -->
       <div class="contact-container email-info-container">
         <a href="mailto:info@webdesignsandiego.com">info@webdesignsandiego.com</a>
       </div>
     </div>
+    |
     <div class="input-group">
-      <span class="input-group-addon" id="basic-addon1">
-      <amp-img src="<?php bloginfo('url');?>/app/uploads/2017/09/iconmonstr-smartphone-3.svg" alt="Email Us" width="8.34" height="14.3" class="second"></amp-img>
-      </span>
+      <!-- <span class="input-group-addon" id="basic-addon1">
+      <amp-img src="<?php //bloginfo('url');?>/app/uploads/2017/09/iconmonstr-smartphone-3.svg" alt="Email Us" width="8.34" height="14.3" class="second"></amp-img>
+      </span> -->
       <div class="contact-container phone-info-container">
           <a href="tel:858.461.8010">858.461.8010</a>
       </div>

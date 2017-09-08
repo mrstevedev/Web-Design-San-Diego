@@ -4,6 +4,12 @@ body{
     color:#FFF;
 }
 
+@media(max-width:415px){
+    #section-one{
+        background-image:none!important;
+    }
+}
+
 a {
     -webkit-transition: color 350ms,outline-color 350ms;
     transition: color 350ms,outline-color 350ms;
@@ -104,10 +110,7 @@ footer .row{
 }
 
 .contact-container{
-    height:26px;
-    // background-color:#152233;
     font-family: 'Economica';
-    font-size: 17px;
     padding: 1px 10px;
     text-align: center;
     font-weight: 100;

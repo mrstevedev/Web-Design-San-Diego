@@ -511,3 +511,32 @@
     position: absolute;
     bottom: 80px;
 }
+
+@media(width:375px){
+    .section-four section {
+        margin: 0!important;
+    }
+    .local {
+        font-size: 16px!important;
+    }
+    .phone-contact {
+        font-size: 32px!important;
+    }
+    .email-contact {
+        font-size: 25px!important;
+    }
+
+    .contact-column-left h1 {
+        font-size: 23px;
+        line-height: 13px;
+    }
+
+    .section-four h1:nth-child(2) {
+        font-size: 38px;
+        line-height: 30px;       
+    }
+
+
+
+
+}

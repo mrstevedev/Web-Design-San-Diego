@@ -4,7 +4,7 @@ header{
 }
 
 .logo{
-    padding-left:0;
+    padding:0;
 }
 
 ul#primary-navigation{
@@ -92,6 +92,44 @@ ul#primary-navigation li a{
      
     }
 
+    .section-four section {
+        margin: 0!important;
+    }
+
+    .local {
+        font-size: 16px!important;
+    }
+
+    .phone-contact {
+        font-size: 28px!important;
+    }
+
+    .email-contact {
+        font-size: 21px!important;
+    }
+
+ 
+
+    .section-one{
+        margin-top:25px;
+    }
+
+    .box{
+        height: 34px;
+        line-height: 34px;
+        font-size:12px;
+    }
+
+    .form-inline{
+        padding-left:0;
+    }
+    .contact-container {
+        padding: 1px 2px;
+        text-align: initial;
+        font-weight: 100;
+    }
+  
+
 }
 
 @media(width: 375px){
@@ -108,9 +146,9 @@ ul#primary-navigation li a{
 }
 
 @media(max-width:517px){
-    .form-inline{
-        display: none;
-    }
+    // .form-inline{
+    //     display: none;
+    // }
 
     ul#primary-navigation li {
         text-align: center;
@@ -129,6 +167,13 @@ ul#primary-navigation li a{
 
     ul#primary-navigation {   
         padding: 20px;
+    }
+    .email-info-container a{
+        font-size: 12px;
+    }
+    
+    .phone-info-container a{
+        font-size:10px;
     }
 }
 
