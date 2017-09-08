@@ -1,7 +1,7 @@
 <header class="banner fixed-top">
   <div class="container-fluid">   
     <nav class="navbar nav-primary navbar-expand-md navbar-light" data-theme="white" aria-label="Primary">
-        <a class="brand logo col-3 col-sm-3 col-lg-5" href="<?= esc_url(home_url('/')); ?>">
+        <a class="brand logo col-3 col-sm-3 col-lg-1" href="<?= esc_url(home_url('/')); ?>">
           <amp-img src="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg" alt="Welcome" width="82" height="50"></amp-img>
         </a>  
         
@@ -20,7 +20,7 @@
       <amp-img src="<?php bloginfo('url');?>/app/uploads/2017/09/iconmonstr-smartphone-3.svg" alt="Email Us" width="8.34" height="14.3" class="second"></amp-img>
       </span>
       <div class="contact-container phone-info-container">
-          858.461.8010
+          <a href="tel:858.461.8010">858.461.8010</a>
       </div>
     </div>
   </form>

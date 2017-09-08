@@ -4,6 +4,8 @@
 #section-one{
     background-color: #2B4160;
     background-image:url('/app/uploads/2017/09/WebDesignSanDiego-cyanotype.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -284,7 +286,8 @@
     border: 0!important;
     border-bottom: 1px solid #FFFBD1!important;
     transition: .35s ease all;
-    font-weight: 100!important;    
+    font-weight: 100!important;  
+    border-radius: 0;  
 }
 
 .nf-error-msg, .ninja-forms-req-symbol {
@@ -402,6 +405,10 @@
     .post header{
         margin-top: 75px;        
     }
+
+    .nf-field-container{
+        width: 100%!important;
+    }
 }
 .nf-form-wrap .ninja-forms-form-wrap{
     width: 91%;
@@ -497,4 +504,9 @@
 
 .search-form .search-submit:focus{
     box-shadow: none;
+}
+
+#yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA{
+    position: absolute;
+    bottom: 80px;
 }
