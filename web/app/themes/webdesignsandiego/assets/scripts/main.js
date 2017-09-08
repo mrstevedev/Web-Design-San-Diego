@@ -52,12 +52,12 @@
           }
 
           if(scrollPos <= 120){
-            $('header').addClass('animated fadeIn')
-              .css('background','rgba(43,65,96, 0)').css('transition', '.35s ease-in-out');
+            $('header')
+              .css('background','rgba(43,65,96, 0)')
+              .css('transition', '.35s ease-in-out');
           }
             else {
-              $('header').addClass('animated fadeIn')
-                .css('background','rgba(43,65,96, 1)');
+              $('header').css('background','rgba(43,65,96, 1)');
             }
         });
         //  end sticky navigation
