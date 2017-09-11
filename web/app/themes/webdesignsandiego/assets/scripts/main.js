@@ -19,29 +19,8 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
-
-        // Yelp Authentication Credentials
-        var clientID = 'S4nFFgSD6bUm7Zuxrqz5Lw';
-        var clientSecret = 'MiIQyIgaNYwcN1avfwYGRx5jPmdpYCL0KZWrgvnRB5HB9lMQHjt9tJMso4NnSWvF';
-        //https://api.yelp.com/oauth2/token?grant_type=OAuth2&client_secret=MiIQyIgaNYwcN1avfwYGRx5jPmdpYCL0KZWrgvnRB5HB9lMQHjt9tJMso4NnSWvF&client_id=S4nFFgSD6bUm7Zuxrqz5Lw
-        
-
-        // $(window).resize(function() {
-        //   /*If browser resized, check width again */
-        //   if ($(window).width() < 575) {
-        //    $('#nf-field-5-container, #nf-field-6-container, #nf-field-7-container').removeClass('one-third');
-        //    $('#nf-field-9-container, #nf-field-10-container').removeClass('one-fourth');
-        //    $('#nf-field-11-container').removeClass('one-half');
-           
-        //   }
-        //   else { 
-        //     $('#nf-field-5-container, #nf-field-6-container, #nf-field-7-container').addClass('one-third');
-        //     $('#nf-field-9-container, #nf-field-10-container').addClass('one-fourth');
-        //     $('#nf-field-11-container').addClass('one-half');                      
-        //  }
-        // });
-
-         // sticky back to top
+      
+         //sticky back to top
          $(window).scroll(function(){
           var scrollPos = $(window).scrollTop();
           if(scrollPos >= 797){
@@ -51,14 +30,14 @@
             $('.back-to-top').removeClass('fadeInRight show');
           }
 
-          if(scrollPos <= 120){
-            $('header')
-              .css('background','rgba(43,65,96, 0)')
-              .css('transition', '.35s ease-in-out');
-          }
-            else {
-              $('header').css('background','rgba(43,65,96, 1)');
-            }
+          // if(scrollPos <= 120){
+          //   $('header')
+          //     .css('background','rgba(43,65,96, 0)')
+          //     .css('transition', '.35s ease-in-out');
+          // }
+          //   else {
+          //     $('header').css('background','rgba(43,65,96, 1)');
+          //   }
         });
         //  end sticky navigation
       },

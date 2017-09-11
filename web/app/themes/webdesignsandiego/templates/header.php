@@ -1,19 +1,19 @@
 <header class="banner fixed-top">
   <div class="container-fluid">   
     <nav class="navbar nav-primary navbar-expand-md navbar-light" data-theme="white" aria-label="Primary">
-        <a class="brand logo col-2 col-sm-3 col-lg-1" href="<?= esc_url(home_url('/')); ?>">
+        <a class="brand logo col-2 col-sm-1 col-md-1 col-lg-1" href="<?= esc_url(home_url('/')); ?>">
           <amp-img 
             src="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg"
-            srcset="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg 72w",
+            srcset="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg 62w",
             alt="Welcome" 
-            width="82" 
+            width="72" 
             height="50"
             layout="responsive">
           </amp-img>
         </a>  
         
     <!-- Contact Info Again -->
-    <form class="form-inline col-7">
+    <form class="form-inline col-7 col-md-3">
     <div class="input-group">
       <!-- <span class="input-group-addon" id="basic-addon1">
         <amp-img src="<?php //bloginfo('url');?>/app/uploads/2017/09/iconmonstr-email-2.svg" alt="Email Us" width="12.77" height="9.57" class="first"></amp-img>
