@@ -354,7 +354,7 @@
 .nf-form-title{
     margin: 30px 0;
 }
-@media(min-width:517px){
+@media(min-width:415px){
     #nf-form-2-cont{
         width: 80%;
         display: flex;
@@ -369,9 +369,18 @@
         top: 75px;
     }
 }
-@media(max-width:517px){
+@media(max-width:415px){
+
+    .learn-more{
+        display: none;
+    }
     .nf-form-title{
-        margin: 30px;
+        margin: 30px 0;
+    }
+
+    .nf-error-msg.nf-error-field-errors {
+        font-size: 12px;
+        bottom: 126px;
     }
     #section-two{
         height: initial;
