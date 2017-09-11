@@ -361,6 +361,14 @@
         flex-direction: column;
     }
 }
+
+@media(min-width:1075px){
+    #yelp-reviews {
+        width: 100%;
+        position: relative;
+        top: 75px;
+    }
+}
 @media(max-width:517px){
     .nf-form-title{
         margin: 30px;
