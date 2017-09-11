@@ -30,14 +30,14 @@
             $('.back-to-top').removeClass('fadeInRight show');
           }
 
-          // if(scrollPos <= 120){
-          //   $('header')
-          //     .css('background','rgba(43,65,96, 0)')
-          //     .css('transition', '.35s ease-in-out');
-          // }
-          //   else {
-          //     $('header').css('background','rgba(43,65,96, 1)');
-          //   }
+          if(scrollPos <= 120){
+            $('header')
+              .css('background','rgba(43,65,96, 0)')
+              .css('transition', '.35s ease-in-out');
+          }
+            else {
+              $('header').css('background','rgba(43,65,96, 1)');
+            }
         });
         //  end sticky navigation
       },
