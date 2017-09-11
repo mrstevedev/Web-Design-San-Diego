@@ -118,15 +118,16 @@
   }
 
   .column h1 {
-    line-height: 40px;
-}
+    line-height: 25px;
+    font-size: 27px;
+  }
 
   .column a {
-      float:right;
+      float: right;
       position: relative;
       display: inline-block;
       cursor: pointer;
-      width: 14%;
+    //   width: 14%;
   }
 
   .section-two .column a:before, .section-two  .column a:after {
@@ -203,12 +204,12 @@
   .section-two .column p{
     color: #9db7c9;
     line-height: 25px;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 100;   
   }
 
   .section-two .column .container {
-    width: 70%;
+    // width: 70%;
 }
 
 .strikethrough {
@@ -551,6 +552,12 @@
     .section-four h1:nth-child(2) {
         font-size: 38px;
         line-height: 30px;       
+    }
+
+    @media(width: 320px){
+        .nf-error-msg.nf-error-field-errors {
+            bottom: 56px;
+        }
     }
 
 

@@ -33,77 +33,72 @@
 
 <div id="section-two" class="section-two">
   <section class="column-top col-lg-12">
-    <section class="left-side left-side-top-left over column col-lg-6">
+    <section class="left-side left-side-top-left over column col-lg-4">
       <div class="container">
         <h1>We Have the Technical Covered.</h1>
         <p>We can deliver web applications in various modern technologies. <span class="highlite-blue">Wordpress, PHP, Ruby on Rails, Javascript, ReactJS, AngularJS,  VueJS. </span></p>
         <span class="strikethrough"></span><a href="#" class="backBtn-top-left">Go Back</a>
       </div>
     </section>
-    <section class="left-side column col-lg-6">
+    <section class="left-side column col-lg-3">
       <div class="container">
         <h1>Web Development</h1>
-        <p>We have the technical covered for you.</p>
-        <span class="strikethrough"></span><a href="#" class="learn-more-btn-top-left">Learn More</a>
+        <p>Our website development and proprietary templates for businesses are affordable and created to just work. We made this after many years of hearing about limited budgets. We have made custom websites and eCommerce sites from scratch using our proprietary methods. All our websites are Google Mobile Friendly and up to date.</p>
+        <span class="strikethrough"></span>
+        <!-- <a href="#" class="learn-more-btn-top-left">Learn More</a> -->
       </div>
     </section>
    
-    <section class="right-side column col-lg-6">
+    <section class="right-side column col-lg-3">
       <div class="container">
       <h1>Search Engine Optimization</h1>
-        <p>Something here about SEO best practices.</p>
-        <span class="strikethrough"></span><a href="#" class="learn-more-btn-top-right">Learn More</a>
+        <p>Do you already have a website? Need help ranking your business higher for organic search results? We are experts in Search Engine Optimization and we can definitely help your business be seen on the first pages, which will drive more traffic and sales.</p>
+        <span class="strikethrough"></span>
+        <!-- <a href="#" class="learn-more-btn-top-right">Learn More</a> -->
       </div>
       </section>
       <section class="right-side right-side-top-right over column col-lg-6">
       <div class="container">
         <h1>We Know How to get you Visible.</h1>
         <p>Something here about SEO and how we can do this and that.</p>
-        <span class="strikethrough"></span><a href="#" class="backBtn-top-right">Go Back</a>
+        <span class="strikethrough"></span>
+        <!-- <a href="#" class="backBtn-top-right">Go Back</a> -->
       </div>
     </section>
-  </section>
-  <div class="arrow-down">
-      <button class="arrow right sectionTwoBtn3">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
-          <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
-        0.375,0.375 45.63,38.087 0.375,75.8 "/>
-        </svg>
-      </button>
-    </div>
-</div>
 
-<div id="section-three" class="section-two section-two-btm">
-<section class="column-top col-lg-12">
-<section class="left-side left-side-btm-left over column col-lg-6">
+    <section class="left-side left-side-btm-left over column col-lg-3">
       <div class="container">
         <h1>Something here about Paid Advertising.</h1>
         <p>Something here about paid advertising & pay per click advertising. .</p>
-        <span class="strikethrough"></span><a href="#" class="backBtn-btm-left">Back</a>
+        <span class="strikethrough"></span>
+        <!-- <a href="#" class="backBtn-btm-left">Back</a> -->
       </div>
     </section>
-<section class="left-side column col-lg-6">
+<section class="left-side column col-lg-3">
       <div class="container">
         <h1>PAID ADVERTISING, PPC</h1>
-        <p>We have the technical covered for you.</p>
-        <span class="strikethrough"></span><a href="#" class="learn-more-btn-btm-left">Learn More</a>
+        <p>We will manage your PPC account perfectly, and make sure you are not wasting money and receiving the best ROI as possible. We offer a one-time setup or monthly management of your campaigns.</p>
+        <span class="strikethrough"></span>
+        <!-- <a href="#" class="learn-more-btn-btm-left">Learn More</a> -->
       </div>
 </section>
-<section class="right-side column col-lg-6">
+<section class="right-side column col-lg-3">
 <div class="container">
         <h1>HOSTING/MAINTANENCE</h1>
-        <p>We do hosting. More here about how we do hosting & something about maintenance.</p>
-        <span class="strikethrough"></span><a href="#" class="learn-more-btn-btm-right">Learn More</a>
+        <p>We are with the fastest and most reliable hosting that is local. This helps not only with ranking but with fast loading pages.</p>
+        <span class="strikethrough"></span>
+        <!-- <a href="#" class="learn-more-btn-btm-right">Learn More</a> -->
       </div>
 </section>
-<section class="right-side right-side-btm-right over column col-lg-6">
+<section class="right-side right-side-btm-right over column col-lg-3">
       <div class="container">
         <h1>Something here about Hosting/Maintenence.</h1>
         <p>More here about Hosting/Maintenence.</p>
-        <span class="strikethrough"></span><a href="#" class="backBtn-btm-right">Go Back</a>
+        <span class="strikethrough"></span>
+        <!-- <a href="#" class="backBtn-btm-right">Go Back</a> -->
       </div>
     </section>
-</section>
+  </section>
   <div class="arrow-down">
       <button class="arrow right sectionThreeBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
@@ -113,6 +108,9 @@
       </button>
     </div>
 </div>
+
+
+
 
 <div id="section-four" class="section-three">
   <section class="col-lg-12">
