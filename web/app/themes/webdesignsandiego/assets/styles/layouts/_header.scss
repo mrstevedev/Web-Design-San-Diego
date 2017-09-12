@@ -147,6 +147,10 @@ ul#primary-navigation li a{
 }
 
 @media(max-width:415px){
+
+    header{
+        background-color: rgba(43,65,96,1);
+    }
     .contact-container {
         padding: 1px 3px;       
     }
