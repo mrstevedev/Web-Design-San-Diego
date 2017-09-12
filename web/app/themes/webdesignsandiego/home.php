@@ -108,7 +108,38 @@
       </button>
     </div>
 </div>
+
+<div id="section-three" class="section-two section-two-btm">
+<section class="column-top col-lg-12">
+
+<section class="left-side column col-lg-7">
+      <div class="container">
+        <h1>About Us</h1>
+        <p>Founded by Eric and Kayla Strate, we have over 10 years combined experience in helping companies in San Diego succeed online. Our focus starts with quality, and ends with customer satisfaction.
+We are a local company located in Del Mar, CA., and we have a strong understanding of the San Diego County market. We bring expertise in website development, designs that convert visitors into contacts, and expert Digital Marketing services. We also provide lightning fast web hosting, to compliment your blazing fast website. We can handle your hosting, updates, and maintenance issues which is all included in our monthly service plan. We have pricing for every business needs. If you are a new startup with limited budget, we have a solution for you. If you need a custom website from the ground up, we can help you as well. We offer a proprietary and custom WordPress theme that is easy to navigate, modify, lightweight, responsive and is Google mobile-friendly. Once your website is designed to perfection and launched, you are not left searching for help to promote. We can help you with our expert digital marketing implementations to increase your traffic for more sales. Call or contact us today for your tailored quote.</p>
+        <span class="strikethrough"></span>
+      </div>
+</section>
+<section class="right-side column col-lg-5">
+<div class="container">
+        <h1></h1>
+        <p>Helping Your Business Build Success Online and be the Best!
+Develop Your Path to Greatness
+Our business is helping your business succeed online. We believe that traffic equals sales, and with great traffic, you need a website that can convert those people into sales.</p>
+      </div>
+</section>
+
+</section>
+  <div class="arrow-down">
+      <button class="arrow right sectionThreeBtn1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
+          <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
+        0.375,0.375 45.63,38.087 0.375,75.8 "/>
+        </svg>
+      </button>
+    </div>
 </div>
+
 <div id="section-four" class="section-three">
   <section class="col-lg-12">
     <div class="container">

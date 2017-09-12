@@ -210,9 +210,14 @@
     font-weight: 100;   
     // height:235px;
   }
+  .section-two-btm .right-side .container p {
+    color: #FFF;
+    border-left: solid 6px;
+    padding-left: 15px;
+}
 
   .section-two .column p:after{
-          width: 50px;
+    width: 50px;
     height: 1px;
     background: #FFF;
     display: inline-block;
@@ -367,6 +372,7 @@
     margin: 30px 0;
 }
 @media(min-width:415px){
+
     #nf-form-2-cont{
         width: 80%;
         display: flex;
@@ -382,6 +388,9 @@
     }
 }
 @media(max-width:415px){
+    .section-two .left-side .container p{
+        line-height: 20px;        
+    }
     #nf-field-7-container .nf-error-msg.nf-error-required-error {
         margin-top: -7px;
     }
