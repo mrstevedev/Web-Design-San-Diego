@@ -69,12 +69,12 @@ ul#primary-navigation li a{
 
 @media(width: 320px){
     h1 {
-        font-size: 22px;
+        font-size: 22px!important;
         line-height: 13px;
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 22px!important;
         line-height: 14px;
     }
 
@@ -147,9 +147,9 @@ ul#primary-navigation li a{
 }
 
 @media(max-width:415px){
-    // .form-inline{
-    //     display: none;
-    // }
+    .contact-container {
+        padding: 1px 3px;       
+    }
     h1 {
         font-size: 26px;
         line-height: 18px;
