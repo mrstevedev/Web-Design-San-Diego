@@ -135,12 +135,12 @@ ul#primary-navigation li a{
 
 @media(width: 375px){
     h1 {
-        font-size: 28px;
+        font-size: 26px;
         line-height: 18px;
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 24px;
         line-height: 24px;
     }
 
@@ -150,6 +150,9 @@ ul#primary-navigation li a{
     // .form-inline{
     //     display: none;
     // }
+    #yelp-reviews{
+        display: none;
+    }
 
     ul#primary-navigation li {
         text-align: center;
