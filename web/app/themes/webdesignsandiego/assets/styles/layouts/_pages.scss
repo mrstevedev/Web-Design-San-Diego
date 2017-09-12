@@ -571,14 +571,22 @@
         font-size: 38px;
         line-height: 30px;       
     }
+}
 
-    @media(width: 320px){
-        .nf-error-msg.nf-error-field-errors {
+@media(width: 320px){
+        .nf-error-msg.nf-error-field-errors 
+        {
             bottom: 56px;
         }
     }
 
+@media(max-width:320px){
+    .section-two-btm .column p {
+        font-size: 16px!important;
+        line-height:16px!important;
+    }
 
-
-
+    .section-four .column p {
+        line-height: initial;
+    }
 }
