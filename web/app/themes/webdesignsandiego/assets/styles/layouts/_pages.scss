@@ -58,7 +58,7 @@
 }
 
 .phone-contact{
-    font-size: 31px;
+    font-size: 25px;
 }
 .email-contact{
     font-size: 26px;
@@ -85,9 +85,10 @@
 }
 
 .section-three .blog-preview-left h2{
-    border-bottom: solid 7px;
+    // border-bottom: solid 7px;
     width: 100%;
     line-height: 56px;
+    font-size:53px;
 }
 
 .section-three .blog-preview-right h2{
@@ -381,6 +382,9 @@
     }
 }
 @media(max-width:415px){
+    .nf-field-container {
+        margin-bottom: 0px;
+    }
     .contact-column-right p {
         margin: 0;
     }
