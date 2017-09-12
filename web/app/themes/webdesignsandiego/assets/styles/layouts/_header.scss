@@ -164,8 +164,12 @@ ul#primary-navigation li a{
         line-height: 24px;
     }
     #yelp-reviews{
-        display: none;
-    }
+        // display: none;
+        position: absolute;
+        left:0;
+        right:0;
+        bottom:37px;
+    }    
 
     ul#primary-navigation li {
         text-align: center;
