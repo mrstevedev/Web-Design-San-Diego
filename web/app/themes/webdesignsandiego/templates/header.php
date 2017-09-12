@@ -34,9 +34,17 @@
   </form>
     <!-- End Contact Info Again -->
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <button class="navbar-toggler hamburger hamburger--squeeze" 
+      type="button" 
+      data-toggle="collapse" 
+      data-target="#navbarCollapse" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
         <?php

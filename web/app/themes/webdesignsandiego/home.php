@@ -69,7 +69,7 @@
 
   </section>
   <div class="arrow-down">
-      <button class="arrow right sectionThreeBtn1">
+      <button class="arrow right sectionTwoBtmBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
         0.375,0.375 45.63,38.087 0.375,75.8 "/>
@@ -100,7 +100,7 @@ Our business is helping your business succeed online. We believe that traffic eq
 
 </section>
   <div class="arrow-down">
-      <button class="arrow right sectionThreeBtn1">
+      <button class="arrow right sectionFourBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
         0.375,0.375 45.63,38.087 0.375,75.8 "/>
@@ -109,7 +109,7 @@ Our business is helping your business succeed online. We believe that traffic eq
     </div>
 </div>
 
-<div id="section-four" class="section-three">
+<div id="section-four" class="section-four">
   <section class="col-lg-12">
     <div class="container">
     <section class="column col-lg-4">
@@ -155,14 +155,11 @@ Our business is helping your business succeed online. We believe that traffic eq
           echo '</div>
           </section>';
         }
-        
         ?>
-     
-      
     </div>
   </section>
   <div class="arrow-down">
-      <button class="arrow right sectionFourBtn1">
+      <button class="arrow right sectionFiveBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
         0.375,0.375 45.63,38.087 0.375,75.8 "/>
@@ -171,7 +168,7 @@ Our business is helping your business succeed online. We believe that traffic eq
     </div>
 </div>
 
-<div id="section-five" class="section-four">
+<div id="section-five" class="section-four section-five">
   <section class="container">
     <section class="col-lg-8 contact-column-left">
       <h1>Have An Idea? A Project in Mind?</h1>

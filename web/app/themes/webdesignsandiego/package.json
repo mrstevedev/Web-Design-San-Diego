@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "animate.css": "^3.5.2",
+    "hamburgers": "^0.9.1",
     "smoothscroll": "^0.3.0",
     "yelp-fusion": "^1.0.3"
   }
