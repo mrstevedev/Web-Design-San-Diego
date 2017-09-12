@@ -217,3 +217,24 @@ ul#primary-navigation li a{
 // Hamburger menu styles
 
 
+.hamburger-box {
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    height: 8px;
+}
+
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    width: 22px!important;
+    height: 2px!important;
+    border-radius: 0px!important;
+    background-color: #a1bcd4!important;
+}
+
+.hamburger-inner:before {
+    top: -7px!important;
+}
+
+.hamburger-inner:after {
+    bottom: -7px!important;
+}
