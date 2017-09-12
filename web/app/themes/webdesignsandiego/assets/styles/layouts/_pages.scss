@@ -15,6 +15,13 @@
     position:relative;
 }
 
+// Section Four
+#section-five{
+    background-image:url('/app/uploads/2017/09/WebDesignSanDiego-black.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #section-two,
 #section-three,
 #section-five{
@@ -38,8 +45,6 @@
 
 .section-four h1:nth-child(2) {
     color: #9DB7C9;
-    // font-size: 60px;
-    // line-height: 50px;
     margin-bottom: 100px;    
 }
 
@@ -71,7 +76,6 @@
 .section-three .column p {
     color:#FFF;
     font-family: 'Helvetica Neue';
-    line-height:19px;
     font-weight:200;
 }
 
@@ -85,7 +89,6 @@
 }
 
 .section-three .blog-preview-left h2{
-    // border-bottom: solid 7px;
     width: 100%;
     line-height: 56px;
     font-size:53px;
@@ -110,11 +113,6 @@
     transition: .4s ease-in-out;
     overflow: hidden;
   }
-
-//   .section-two .column:hover{
-//       background:#121212;
-//   }
-
   .column-top {
       padding:0;
   }
@@ -129,7 +127,6 @@
       position: relative;
       display: inline-block;
       cursor: pointer;
-    //   width: 14%;
   }
 
   .section-two .column a:before, .section-two  .column a:after {
@@ -205,15 +202,17 @@
 
   .section-two .column p{
     color: #9db7c9;
-    // line-height: 25px;
     font-size: 20px;
     font-weight: 100;   
-    // height:235px;
   }
   .section-two-btm .right-side .container p {
     color: #FFF;
     border-left: solid 6px;
     padding-left: 15px;
+}
+
+.section-two .column-top p{
+    height:100px;
 }
 
   .section-two .column p:after{
@@ -222,12 +221,6 @@
     background: #FFF;
     display: inline-block;
   }
-
-
-  .section-two .column .container {
-    // width: 70%;
-}
-
 .strikethrough {
     width: 50px;
     height: 1px;

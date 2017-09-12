@@ -33,19 +33,10 @@
 
 <div id="section-two" class="section-two">
   <section class="column-top col-lg-12">
-    <section class="left-side left-side-top-left over column col-lg-4">
-      <div class="container">
-        <h1>We Have the Technical Covered.</h1>
-        <p>We can deliver web applications in various modern technologies. <span class="highlite-blue">Wordpress, PHP, Ruby on Rails, Javascript, ReactJS, AngularJS,  VueJS. </span></p>
-        <span class="strikethrough"></span><a href="#" class="backBtn-top-left">Go Back</a>
-      </div>
-    </section>
     <section class="left-side column col-lg-3">
       <div class="container">
         <h1>Web Development</h1>
         <p>Our website development and proprietary templates for businesses are affordable and created to just work. We made this after many years of hearing about limited budgets. We have made custom websites and eCommerce sites from scratch using our proprietary methods. All our websites are Google Mobile Friendly and up to date.</p>
-        <span class="strikethrough"></span>
-        <!-- <a href="#" class="learn-more-btn-top-left">Learn More</a> -->
       </div>
     </section>
    
@@ -53,51 +44,29 @@
       <div class="container">
       <h1>Search Engine Optimization</h1>
         <p>Do you already have a website? Need help ranking your business higher for organic search results? We are experts in Search Engine Optimization and we can definitely help your business be seen on the first pages, which will drive more traffic and sales.</p>
-        <span class="strikethrough"></span>
-        <!-- <a href="#" class="learn-more-btn-top-right">Learn More</a> -->
       </div>
       </section>
       <section class="right-side right-side-top-right over column col-lg-6">
       <div class="container">
         <h1>We Know How to get you Visible.</h1>
         <p>Something here about SEO and how we can do this and that.</p>
-        <span class="strikethrough"></span>
-        <!-- <a href="#" class="backBtn-top-right">Go Back</a> -->
       </div>
-    </section>
+  </section>
 
-    <section class="left-side left-side-btm-left over column col-lg-3">
-      <div class="container">
-        <h1>Something here about Paid Advertising.</h1>
-        <p>Something here about paid advertising & pay per click advertising. .</p>
-        <span class="strikethrough"></span>
-        <!-- <a href="#" class="backBtn-btm-left">Back</a> -->
-      </div>
-    </section>
+    
 <section class="left-side column col-lg-3">
       <div class="container">
         <h1>PAID ADVERTISING, PPC</h1>
         <p>We will manage your PPC account perfectly, and make sure you are not wasting money and receiving the best ROI as possible. We offer a one-time setup or monthly management of your campaigns.</p>
-        <span class="strikethrough"></span>
-        <!-- <a href="#" class="learn-more-btn-btm-left">Learn More</a> -->
       </div>
 </section>
 <section class="right-side column col-lg-3">
 <div class="container">
         <h1>HOSTING/MAINTANENCE</h1>
         <p>We are with the fastest and most reliable hosting that is local. This helps not only with ranking but with fast loading pages.</p>
-        <span class="strikethrough"></span>
-        <!-- <a href="#" class="learn-more-btn-btm-right">Learn More</a> -->
       </div>
 </section>
-<section class="right-side right-side-btm-right over column col-lg-3">
-      <div class="container">
-        <h1>Something here about Hosting/Maintenence.</h1>
-        <p>More here about Hosting/Maintenence.</p>
-        <span class="strikethrough"></span>
-        <!-- <a href="#" class="backBtn-btm-right">Go Back</a> -->
-      </div>
-    </section>
+
   </section>
   <div class="arrow-down">
       <button class="arrow right sectionThreeBtn1">
@@ -143,7 +112,7 @@ Our business is helping your business succeed online. We believe that traffic eq
 <div id="section-four" class="section-three">
   <section class="col-lg-12">
     <div class="container">
-    <section class="blog-preview-left column col-lg-6">
+    <section class="column col-lg-4">
 
       <!-- Use WPQuery to grab the latest post and display it in thi section only -->
       <?php 
@@ -166,8 +135,7 @@ Our business is helping your business succeed online. We believe that traffic eq
      
     </section>
 
-    <section class="blog-preview-right column col-lg-6">
-      <div class="container">
+   
 
         <?php 
         
@@ -181,13 +149,16 @@ Our business is helping your business succeed online. We believe that traffic eq
 
         while( $query->have_posts() ){
           $query->the_post();
+          echo ' <section class="column col-lg-4">
+          <div class="container">';
           get_template_part('templates/content', get_post_format() );           
+          echo '</div>
+          </section>';
         }
         
         ?>
      
-      </div>
-    </section>
+      
     </div>
   </section>
   <div class="arrow-down">
