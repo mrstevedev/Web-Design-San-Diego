@@ -382,8 +382,11 @@
     }
 }
 @media(max-width:415px){
+    #nf-field-7-container .nf-error-msg.nf-error-required-error {
+        margin-top: -7px;
+    }
     .nf-field-container {
-        margin-bottom: 0px;
+        margin-bottom: 0px!important;
     }
     .contact-column-right p {
         margin: 0;
