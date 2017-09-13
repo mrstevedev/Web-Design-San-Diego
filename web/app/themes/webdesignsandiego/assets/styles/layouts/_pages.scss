@@ -30,6 +30,17 @@
     flex-direction: column;
 }
 
+.headline{
+        position: absolute;
+        left: 1%;
+        top: 20%;
+        text-align: left;
+        font-size: 30px;
+        font-family: 'Oswald';
+        text-transform: uppercase;
+        font-weight: bold;        
+}
+
 .section-four h1 {
     float: left;
     clear: left;
@@ -114,7 +125,7 @@
 
   .column h1 {
     line-height: 25px;
-    font-size: 27px;
+    font-size: 24px;
   }
 
   .column a {

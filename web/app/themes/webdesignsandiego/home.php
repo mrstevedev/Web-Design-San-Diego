@@ -33,6 +33,7 @@
 
 <div id="section-two" class="section-two">
   <section class="column-top col-lg-12">
+  <div class="container-fluid headline">Services</div>
     <section class="left-side column col-lg-3">
       <div class="container">
         <h1>Web Development</h1>
