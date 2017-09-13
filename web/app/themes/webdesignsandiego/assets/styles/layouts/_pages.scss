@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #section-two,
 #section-three,
 #section-five{
@@ -16,7 +15,6 @@
     text-align: center;
     flex-direction: column;
 }
-
 .headline{
         position: absolute;
         left: 1%;
@@ -61,17 +59,11 @@
 .email-contact{
     font-size: 26px;
 }
-
-.seciton-three header{
-    height:0;
-}
-
 .section-four .column p {
     color:#FFF;
     font-family: 'Helvetica Neue';
     font-weight:200;
 }
-
 .section-four .column a{
     float: none;
     position: initial;

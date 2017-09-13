@@ -6,6 +6,14 @@
   giftofspeed.type = 'text/css';
   var godefer = document.getElementsByTagName('link')[0];
   godefer.parentNode.insertBefore(giftofspeed, godefer);
+
+  /* Second CSS File */
+  var giftofspeed2 = document.createElement('link');
+  giftofspeed2.rel = 'stylesheet';
+  giftofspeed2.href = '/app/themes/webdesignsandiego/dist/styles/animate.min.css?ver=1.0.0';
+  giftofspeed2.type = 'text/css';
+  var godefer2 = document.getElementsByTagName('link')[0];
+  godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
 </script>
 <footer class="content-info">
   <div class="container-fluid">
