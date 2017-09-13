@@ -96,8 +96,8 @@ function display_sidebar() {
  */
 function assets() {
   wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
-  wp_enqueue_style('sage/google-fonts', 'https://fonts.googleapis.com/css?family=Economica|Oswald', null, 'bogus');
-  wp_enqueue_style('sage/hamburger-css', get_template_directory_uri().'/dist/styles/hamburgers.min.css', null, 'bogus');
+  wp_enqueue_style('sage/google-fonts', 'https://fonts.googleapis.com/css?family=Economica|Oswald', null, '1.0.0', 'bogus');
+  wp_enqueue_style('sage/hamburger-css', get_template_directory_uri().'/dist/styles/hamburgers.min.css', null, '1.0.0', 'bogus');
   
   if (is_single() && comments_open() && get_option('thread_comments')) {
     wp_enqueue_script('comment-reply');
