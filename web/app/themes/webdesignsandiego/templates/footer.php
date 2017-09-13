@@ -103,14 +103,4 @@
     </section>
     </div>
   </div>
-
-  <script type="text/javascript">
-/* First CSS File */
-var giftofspeed = document.createElement('link');
-giftofspeed.rel = 'stylesheet';
-giftofspeed.href = '/app/themes/webdesignsandiego/dist/styles/main.css?ver=1.0.0';
-giftofspeed.type = 'text/css';
-var godefer = document.getElementsByTagName('link')[0];
-godefer.parentNode.insertBefore(giftofspeed, godefer);
-</script>
 </footer>
