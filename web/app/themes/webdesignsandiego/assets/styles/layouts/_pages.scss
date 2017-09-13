@@ -47,6 +47,7 @@
     float: left;
     font-family: 'Economica';
     font-weight: 100;
+    margin: 20px 0;    
 }
 .contact-column-right p{
     text-align: right;
@@ -547,14 +548,6 @@
         line-height: 30px;       
     }
 }
-
-@media(width: 320px){
-        .nf-error-msg.nf-error-field-errors 
-        {
-            bottom: 56px;
-        }
-    }
-
 @media(max-width:415px){
     .section-two-btm .column p {
         font-size: 16px!important;

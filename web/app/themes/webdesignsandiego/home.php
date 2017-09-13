@@ -111,7 +111,7 @@ Our business is helping your business succeed online. We believe that traffic eq
 
 <div id="section-four" class="section-four">
   <section class="col-lg-12">
-    <div class="container">
+    <div class="container-fluid">
     <section class="column col-lg-4">
 
       <!-- Use WPQuery to grab the latest post and display it in thi section only -->
