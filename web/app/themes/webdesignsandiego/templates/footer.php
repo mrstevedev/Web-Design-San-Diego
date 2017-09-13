@@ -1,10 +1,17 @@
+<script type="text/javascript">
+  /* First CSS File */
+  var giftofspeed = document.createElement('link');
+  giftofspeed.rel = 'stylesheet';
+  giftofspeed.href = '/app/themes/webdesignsandiego/dist/styles/main.css?ver=1.0.0';
+  giftofspeed.type = 'text/css';
+  var godefer = document.getElementsByTagName('link')[0];
+  godefer.parentNode.insertBefore(giftofspeed, godefer);
+</script>
 <footer class="content-info">
   <div class="container-fluid">
     <div class="row">
     <?php dynamic_sidebar('sidebar-footer'); ?>
-    <section class="copyright col-lg-4">
-       
-    </section>
+    <section class="copyright col-lg-4"></section>
     <section class="copyright col-lg-4">
        <p>
         <amp-img src="<?php bloginfo('url')?>/app/uploads/2017/09/iconmonstr-copyright-1.svg" alt="Copyright" width="9" height="9"></amp-img>
