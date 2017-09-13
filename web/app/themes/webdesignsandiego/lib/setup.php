@@ -96,7 +96,6 @@ function display_sidebar() {
  */
 function assets() {
   wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
-  wp_enqueue_style('animate.css', get_template_directory_uri() . '/dist/styles/animate.min.css', false);  
   wp_enqueue_style('sage/google-fonts', 'https://fonts.googleapis.com/css?family=Economica|Oswald', null, false);
   wp_enqueue_style('sage/hamburger-css', get_template_directory_uri().'/dist/styles/hamburgers.min.css', false);
   
@@ -105,7 +104,7 @@ function assets() {
   }
 
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
-  wp_enqueue_script('sage/smoothscroll', get_template_directory_uri() . '/assets/scripts/smoothscroll.min.js', ['jquery'], null, true);  
-  // wp_enqueue_script('sage/headroom', get_template_directory_uri() . '/assets/scripts/headroom.js', ['jquery'], null, true);
+  wp_enqueue_script('sage/smoothscroll', get_template_directory_uri() . '/assets/scripts/smoothscroll.min.js', ['jquery'], null, true);
+
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);

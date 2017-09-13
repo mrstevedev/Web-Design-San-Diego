@@ -95,10 +95,10 @@
   }
   
   .arrow {
+
     cursor: pointer;
-  
-    // width: 0;
-    // height: 90px;
+
+
   }
   
   .left:focus polyline {
@@ -133,7 +133,7 @@
 
 @media(width:375px){
 
-  
+
   .arrow-down{
     bottom:0;
   }
@@ -156,7 +156,6 @@
   height: 50px;
   background: #fff;
   transition: .2s ease-in-out;
-  // visibility: hidden;
   border-radius: 100%;
   display: none;
   z-index: 5;  

@@ -1,7 +1,5 @@
 header{
-    // height: 65px;
     background-color: rgba(43,65,96,0);
-    // background-color: rgba(43,65,96,1);
 }
 
 .logo{
@@ -50,7 +48,6 @@ ul#primary-navigation li a{
 .nav-primary .nav a {
     position: relative;
     display: inline-block;
-    // padding: 0 0 30px;
     text-decoration: none;
 }
 
@@ -108,9 +105,6 @@ ul#primary-navigation li a{
     .email-contact {
         font-size: 21px!important;
     }
-
- 
-
     .section-one{
         margin-top:25px;
     }
@@ -129,8 +123,6 @@ ul#primary-navigation li a{
         text-align: initial;
         font-weight: 100;
     }
-  
-
 }
 
 @media(width: 375px){
@@ -156,7 +148,6 @@ ul#primary-navigation li a{
     }
     h1 {
         font-size: 26px;
-        // line-height: 18px;
     }
 
     h2 {
@@ -164,7 +155,6 @@ ul#primary-navigation li a{
         line-height: 24px;
     }
     #yelp-reviews{
-        // display: none;
         position: absolute;
         left:0;
         right:0;
@@ -215,8 +205,6 @@ ul#primary-navigation li a{
 }
 
 // Hamburger menu styles
-
-
 .hamburger-box {
     position: relative;
     display: inline-block;

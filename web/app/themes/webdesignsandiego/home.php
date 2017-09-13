@@ -1,5 +1,4 @@
 <?php /*Template Name: Home Template */ ?>
-<!-- The Homepage is comprised of four sections -->
 <div id="section-one" class="section-one animated fadeIn">
   <section class="container">
     <h1>San Diego Web Design</h1>
@@ -10,16 +9,11 @@
 
   </section><?php  Ninja_Forms()->display( 2 ); ?>
   <div id="yelp-reviews">
-
   <!-- <h3>Yelp Reviews</h3> -->
-    <!-- Display Yelp reviews -->
-
     <div id="yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA">
       <a href="http://yelp.com/biz/eric-strate-seo-expert-san-diego?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge" target="_blank">Check out Eric Strate SEO Expert on Yelp</a>
     </div>    
     <script>(function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rrc-58yAEFLuj7Qxrwzr8VTFwA";g.src = "//yelp.com/biz_badge_js/en_US/rrc/58yAEFLuj7Qxrwzr8VTFwA.js";s.parentNode.insertBefore(g, s);}(document, 'script'));</script>
-
-
   </div>
     <div class="arrow-down">
       <button class="arrow right sectionTwoBtn1">
@@ -30,7 +24,6 @@
       </button>
     </div>
 </div>
-
 <div id="section-two" class="section-two">
   <section class="column-top col-lg-12">
   <div class="container-fluid headline">Services</div>
@@ -40,7 +33,6 @@
         <p>Our website development and proprietary templates for businesses are affordable and created to just work. We made this after many years of hearing about limited budgets. We have made custom websites and eCommerce sites from scratch using our proprietary methods. All our websites are Google Mobile Friendly and up to date.</p>
       </div>
     </section>
-   
     <section class="right-side column col-lg-3">
       <div class="container">
       <h1>Search Engine Optimization</h1>
@@ -53,8 +45,6 @@
         <p>Something here about SEO and how we can do this and that.</p>
       </div>
   </section>
-
-    
 <section class="left-side column col-lg-3">
       <div class="container">
         <h1>PAID ADVERTISING, PPC</h1>
@@ -67,7 +57,6 @@
         <p>We are with the fastest and most reliable hosting that is local. This helps not only with ranking but with fast loading pages.</p>
       </div>
 </section>
-
   </section>
   <div class="arrow-down">
       <button class="arrow right sectionTwoBtmBtn1">
@@ -78,7 +67,6 @@
       </button>
     </div>
 </div>
-
 <div id="section-three" class="section-two section-two-btm">
 <section class="column-top col-lg-12">
 
@@ -98,7 +86,6 @@ Develop Your Path to Greatness
 Our business is helping your business succeed online. We believe that traffic equals sales, and with great traffic, you need a website that can convert those people into sales.</p>
       </div>
 </section>
-
 </section>
   <div class="arrow-down">
       <button class="arrow right sectionFourBtn1">
@@ -109,45 +96,30 @@ Our business is helping your business succeed online. We believe that traffic eq
       </button>
     </div>
 </div>
-
 <div id="section-four" class="section-four">
   <section class="col-lg-12">
     <div class="container-fluid">
     <section class="column col-lg-4">
-
-      <!-- Use WPQuery to grab the latest post and display it in thi section only -->
       <?php 
-
         $featuredArgs = array(
           'post_type' => 'post',
           'category_name' => 'featured',
           'posts_per_page' => 1
         );
-
         $featuredQuery = new WP_Query( $featuredArgs );
-
         while( $featuredQuery->have_posts() ){
           $featuredQuery->the_post();
           get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); 
-          
         }
-      
       ?>
-     
     </section>
-
-   
-
         <?php 
-        
         $args = array(
           'post_type'=>'post',
           'posts_per_page' => 2,          
           'category__not_in' => array( 3 )
         );
-
         $query = new WP_Query( $args );
-
         while( $query->have_posts() ){
           $query->the_post();
           echo ' <section class="column col-lg-4">
@@ -168,7 +140,6 @@ Our business is helping your business succeed online. We believe that traffic eq
       </button>
     </div>
 </div>
-
 <div id="section-five" class="section-four section-five">
   <section class="container">
     <section class="col-lg-8 contact-column-left">
