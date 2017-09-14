@@ -96,7 +96,7 @@ function display_sidebar() {
  */
 function assets() {
   // wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
-  wp_enqueue_style('sage/google-fonts', 'https://fonts.googleapis.com/css?family=Economica|Oswald', null, false);
+  // wp_enqueue_style('sage/google-fonts', 'https://fonts.googleapis.com/css?family=Economica|Oswald', null, false);
   // wp_enqueue_style('sage/hamburger-css', get_template_directory_uri().'/dist/styles/hamburgers.min.css', false);
   
   if (is_single() && comments_open() && get_option('thread_comments')) {

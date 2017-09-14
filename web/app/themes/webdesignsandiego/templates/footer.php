@@ -16,12 +16,21 @@
   godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
 
    /* Third CSS File */
-   var giftofspeed3 = document.createElement('link');
+  var giftofspeed3 = document.createElement('link');
   giftofspeed3.rel = 'stylesheet';
   giftofspeed3.href = '/app/themes/webdesignsandiego/dist/styles/hamburgers.min.css?ver=1.0.1';
   giftofspeed3.type = 'text/css';
   var godefer3 = document.getElementsByTagName('link')[0];
   godefer3.parentNode.insertBefore(giftofspeed3, godefer3);
+
+   /* Fourth CSS File */
+  var giftofspeed4 = document.createElement('link');
+  giftofspeed4.rel = 'stylesheet';
+  giftofspeed4.href = '  https://fonts.googleapis.com/css?family=Economica|Oswald';
+  giftofspeed4.type = 'text/css';
+  var godefer4 = document.getElementsByTagName('link')[0];
+  godefer4.parentNode.insertBefore(giftofspeed4, godefer3);
+
 
 
 </script>
