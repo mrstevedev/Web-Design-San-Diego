@@ -380,6 +380,10 @@
     }
 }
 @media(max-width:415px){
+    .headline {
+        left: 4%;
+        top: 5%;       
+    }
     .section-two .left-side .container p{
         line-height: 20px;        
     }
