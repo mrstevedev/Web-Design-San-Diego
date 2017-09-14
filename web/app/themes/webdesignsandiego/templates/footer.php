@@ -29,7 +29,7 @@
   giftofspeed4.href = '  https://fonts.googleapis.com/css?family=Economica|Oswald';
   giftofspeed4.type = 'text/css';
   var godefer4 = document.getElementsByTagName('link')[0];
-  godefer4.parentNode.insertBefore(giftofspeed4, godefer3);
+  godefer4.parentNode.insertBefore(giftofspeed4, godefer4);
 
 
 
