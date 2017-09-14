@@ -51,16 +51,21 @@
         var sectionTwoBtmBtn1 = document.querySelector('.sectionTwoBtmBtn1');
         var sectionTwoBtmBtn2 = document.querySelector('.sectionTwoBtmBtn2');
         var sectionThreeBtn1 = document.querySelector('.sectionThreeBtn1');
+        // var sectionThreeBtn2 = document.querySelector('.sectionThreeBtn2');
         var sectionFourBtn1 = document.querySelector('.sectionFourBtn1');
         var sectionFourBtn2 = document.querySelector('.sectionFourBtn2');
         var sectionFiveBtn1 = document.querySelector('.sectionFiveBtn1');
         var sectionFiveBtn2 = document.querySelector('.sectionFiveBtn2');
+
         var hamburger = document.querySelector('.hamburger');
+
+
         var sectionOne = document.querySelector('.section-one');
         var sectionTwo = document.querySelector('.section-two');  
         var sectionTwoBtm = document.querySelector('.section-two-btm');
         var sectionFour = document.querySelector('.section-four');
         var sectionFive = document.querySelector('.section-five');
+        
         var backToTopBtn = document.querySelector('.backtotopBtn');
         
         var backToTopHandler = function(event){
@@ -78,7 +83,12 @@
           event.preventDefault();
           smoothScroll(sectionTwoBtm, '1500');
         };
-        
+
+        // var sectionThreeHandler = function(event){
+        //   event.preventDefault();
+        //   smoothScroll(sectionThree,'1500');
+        // };
+
         var sectionThreeHandler2 = function(event){
           event.preventDefault();
           smoothScroll(sectionThree, '1500');

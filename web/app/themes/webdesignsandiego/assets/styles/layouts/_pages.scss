@@ -230,126 +230,8 @@
     max-width: 100%!important;
   }
 
-  .nf-form-fields-required{
-      display: none;
-  }
+  
 
-  .nf-response-msg{
-    font-family: 'Economica';
-    font-size: 17px;
-    position: relative;
-    top: 40px;
-    color: #def;
-  }
-
-  .nf-field-label{
-      transition: .35s ease-in;
-  } 
-.nf-field-label:focus{
-    opacity:1!important;
-    color:#fff;
-}
-
-  .ninja-forms-field{
-      color:#fff;
-      background: transparent;
-      border:0;
-      outline: none;
-      transition: .35s ease-in-out;
-      font-family: 'Economica';
-      border-bottom: 1px solid rgba(255,255,255,.2);
-  }
-
-.ninja-forms-field:hover {
-    border-bottom: 1px solid hsla(0,0%,100%,.4)!important;
-}
-.ninja-forms-field:focus {
-    border-bottom: 1px solid hsl(0, 0%, 100%)!important;
-}
-
-.nf-after-field .nf-error-msg {
-    margin-right: 0!important;
-}
-
-  .nf-error .ninja-forms-field {
-    border: 0!important;
-    border-bottom: 1px solid #FFFBD1!important;
-    transition: .35s ease all;
-    font-weight: 100!important;  
-    border-radius: 0;  
-}
-
-.nf-error-msg, .ninja-forms-req-symbol {
-    color: #FFFBD1!important;
-    font-family: 'Economica';
-    font-size:11px;
-    position: absolute;    
-    
-}
-
-.nf-error-required-error{
-    right: 0;
-}
-
-.nf-error-msg.nf-error-field-errors {
-    font-size: 16px;
-    left: 0;
-    right: 0;
-}
-
-.nf-error-msg.nf-error-field-errors:after{
-    content: "";
-    display: block;
-    border-bottom: 1px solid;
-    width: 34px;
-    margin: 12px auto;
-}
-.nf-field-label{
-    font-family: 'Economica';
-}
-
-.nf-field-label label{
-    font-weight: 100!important;
-}
-
-.label-above .nf-field-label {
-    margin-bottom: 0!important;
-}
-
-.submit-container .nf-element{
-    border-bottom:0;
-    cursor: pointer;
-}
-
-.submit-container{
-    text-align: right;
-}
-
-.nf-field-element textarea {
-    height: 27px!important;
-}
-
-.ninja-forms-req-symbol{
-    display: none;
-}
-
-#nf-form-2-cont{
-    width:100%;
-    padding-left:15px;
-    padding-right:15px;
-}
-
-.nf-form-title{
-    margin: 30px 0;
-}
-@media(min-width:415px){
-
-    #nf-form-2-cont{
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 @media(min-width:1075px){
     #yelp-reviews {
@@ -419,26 +301,7 @@
         margin-left: 0!important;        
     }
 }
-.nf-form-wrap .ninja-forms-form-wrap{
-    width: 91%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-}
 
-.field-wrap .submit-wrap{
-    clear: left;
-    float: right;
-    width: 19%;
-}
-
-.nf-response-msg:after {
-    content: "";
-    border-bottom: solid 1px #def;
-    width: 40px;
-    height: 1px;
-    display: inline-block;
-}
 
 .social-svg-list{
     list-style: none;

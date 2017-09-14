@@ -1,9 +1,0 @@
-ul#primary-navigation{font-size: .9rem;text-transform: uppercase;align-items: center;}ul#primary-navigation li{padding-left: 79px;}
-ul#primary-navigation li a{font-family: 'Economica';font-weight: 100;color:#FFF;text-decoration: none;}
-.nav-primary .nav li a:after{position: absolute;content: '';bottom: 0;left: 0;right: 0;border-top-width: 1px;border-top-style: solid;opacity: 0;-webkit-transition: opacity 350ms;transition: opacity 350ms;}
-.nav-primary[data-theme=white] .nav a:after{border-top-color: #fff; }
-.nav-primary[data-theme=white] .nav a:active,
-.nav-primary[data-theme=white] .nav a:focus,
-.nav-primary[data-theme=white] .nav a:hover {color: #fff;}
-.nav-primary .nav a {position: relative;display: inline-block;text-decoration: none;}
-.nav-primary .nav a:active:after,.nav-primary .nav a:focus:after,.nav-primary .nav a:hover:after {opacity: 1;}

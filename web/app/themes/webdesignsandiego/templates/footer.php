@@ -14,6 +14,16 @@
   giftofspeed2.type = 'text/css';
   var godefer2 = document.getElementsByTagName('link')[0];
   godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
+
+   /* Third CSS File */
+   var giftofspeed3 = document.createElement('link');
+  giftofspeed3.rel = 'stylesheet';
+  giftofspeed3.href = '/app/themes/webdesignsandiego/dist/styles/hamburgers.min.css?ver=1.0.1';
+  giftofspeed3.type = 'text/css';
+  var godefer3 = document.getElementsByTagName('link')[0];
+  godefer3.parentNode.insertBefore(giftofspeed3, godefer3);
+
+
 </script>
 <footer class="content-info">
   <div class="container-fluid">
