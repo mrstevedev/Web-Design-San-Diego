@@ -22,17 +22,6 @@
   giftofspeed3.type = 'text/css';
   var godefer3 = document.getElementsByTagName('link')[0];
   godefer3.parentNode.insertBefore(giftofspeed3, godefer3);
-
-   /* Fourth CSS File */
-  var giftofspeed4 = document.createElement('link');
-  giftofspeed4.rel = 'stylesheet';
-  giftofspeed4.href = '  https://fonts.googleapis.com/css?family=Economica|Oswald';
-  giftofspeed4.type = 'text/css';
-  var godefer4 = document.getElementsByTagName('link')[0];
-  godefer4.parentNode.insertBefore(giftofspeed4, godefer4);
-
-
-
 </script>
 <footer class="content-info">
   <div class="container-fluid">
