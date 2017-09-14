@@ -114,6 +114,15 @@ ul#primary-navigation li a{
         line-height: 34px;
         font-size:12px;
     }
+
+    .form-inline{
+        padding-left:0;
+    }
+    .contact-container {
+        padding: 1px 2px;
+        text-align: initial;
+        font-weight: 100;
+    }
 }
 
 @media(width: 375px){
@@ -179,10 +188,13 @@ ul#primary-navigation li a{
     }
 }
 
+
 .navbar-toggler {
     border: 0!important;
     cursor: pointer;
 }
+
+// Hamburger menu styles
 .hamburger-box {
     position: relative;
     display: inline-block;
@@ -196,3 +208,11 @@ ul#primary-navigation li a{
     border-radius: 0px!important;
     background-color: #a1bcd4!important;
 }
+
+// .hamburger-inner:before {
+//     top: -7px!important;
+// }
+
+// .hamburger-inner:after {
+//     bottom: -7px!important;
+// }
