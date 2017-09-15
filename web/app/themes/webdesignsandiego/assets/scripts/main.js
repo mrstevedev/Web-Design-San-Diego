@@ -19,9 +19,7 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
-      
-
-        (function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rrc-58yAEFLuj7Qxrwzr8VTFwA";g.src = "//yelp.com/biz_badge_js/en_US/rrc/58yAEFLuj7Qxrwzr8VTFwA.js";s.parentNode.insertBefore(g, s);}(document, 'script'));</script>
+        (function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rrc-58yAEFLuj7Qxrwzr8VTFwA";g.src = "//yelp.com/biz_badge_js/en_US/rrc/58yAEFLuj7Qxrwzr8VTFwA.js";s.parentNode.insertBefore(g, s);}(document, 'script'));
         
          //sticky back to top
          $(window).scroll(function(){
@@ -49,82 +47,82 @@
 
         $('.comment-form-comment label').html('Submit your comment');
         
-        var sectionTwoBtn1 = document.querySelector('.sectionTwoBtn1'); 
-        var sectionTwoBtn2 = document.querySelector('.sectionTwoBtn2'); 
-        var sectionTwoBtmBtn1 = document.querySelector('.sectionTwoBtmBtn1');
-        var sectionTwoBtmBtn2 = document.querySelector('.sectionTwoBtmBtn2');
-        var sectionThreeBtn1 = document.querySelector('.sectionThreeBtn1');
+        // var sectionTwoBtn1 = document.querySelector('.sectionTwoBtn1'); 
+        // var sectionTwoBtn2 = document.querySelector('.sectionTwoBtn2'); 
+        // var sectionTwoBtmBtn1 = document.querySelector('.sectionTwoBtmBtn1');
+        // var sectionTwoBtmBtn2 = document.querySelector('.sectionTwoBtmBtn2');
+        // var sectionThreeBtn1 = document.querySelector('.sectionThreeBtn1');
         // var sectionThreeBtn2 = document.querySelector('.sectionThreeBtn2');
-        var sectionFourBtn1 = document.querySelector('.sectionFourBtn1');
-        var sectionFourBtn2 = document.querySelector('.sectionFourBtn2');
-        var sectionFiveBtn1 = document.querySelector('.sectionFiveBtn1');
-        var sectionFiveBtn2 = document.querySelector('.sectionFiveBtn2');
+        // var sectionFourBtn1 = document.querySelector('.sectionFourBtn1');
+        // var sectionFourBtn2 = document.querySelector('.sectionFourBtn2');
+        // var sectionFiveBtn1 = document.querySelector('.sectionFiveBtn1');
+        // var sectionFiveBtn2 = document.querySelector('.sectionFiveBtn2');
 
         // var hamburger = document.querySelector('.hamburger');
 
 
-        var sectionOne = document.querySelector('.section-one');
-        var sectionTwo = document.querySelector('.section-two');  
-        var sectionTwoBtm = document.querySelector('.section-two-btm');
-        var sectionFour = document.querySelector('.section-four');
-        var sectionFive = document.querySelector('.section-five');
+        // var sectionOne = document.querySelector('.section-one');
+        // var sectionTwo = document.querySelector('.section-two');  
+        // var sectionTwoBtm = document.querySelector('.section-two-btm');
+        // var sectionFour = document.querySelector('.section-four');
+        // var sectionFive = document.querySelector('.section-five');
         
-        var backToTopBtn = document.querySelector('.backtotopBtn');
+        // var backToTopBtn = document.querySelector('.backtotopBtn');
         
-        var backToTopHandler = function(event){
-            event.preventDefault();
-            smoothScroll(sectionOne, '800');
-        };
-        backToTopBtn.addEventListener('click', backToTopHandler);
+        // var backToTopHandler = function(event){
+        //     event.preventDefault();
+        //     smoothScroll(sectionOne, '800');
+        // };
+        // backToTopBtn.addEventListener('click', backToTopHandler);
         
-        var sectionTwoHandler = function(event) {
-          event.preventDefault();        
-          smoothScroll(sectionTwo, '1500');
-        };
+        // var sectionTwoHandler = function(event) {
+        //   event.preventDefault();        
+        //   smoothScroll(sectionTwo, '1500');
+        // };
 
-        var sectionTwoHandlerBtm = function(event){
-          event.preventDefault();
-          smoothScroll(sectionTwoBtm, '1500');
-        };
+        // var sectionTwoHandlerBtm = function(event){
+        //   event.preventDefault();
+        //   smoothScroll(sectionTwoBtm, '1500');
+        // };
 
         // var sectionThreeHandler = function(event){
         //   event.preventDefault();
         //   smoothScroll(sectionThree,'1500');
         // };
 
-        var sectionThreeHandler2 = function(event){
-          event.preventDefault();
-          smoothScroll(sectionThree, '1500');
-        };
+        // var sectionThreeHandler2 = function(event){
+        //   event.preventDefault();
+        //   smoothScroll(sectionThree, '1500');
+        // };
 
-        var sectionFourHandler = function(event){
-          event.preventDefault();
-          smoothScroll(sectionFour, '1500');
-        };
+        // var sectionFourHandler = function(event){
+        //   event.preventDefault();
+        //   smoothScroll(sectionFour, '1500');
+        // };
 
-        var sectionFourHandler2 = function(event){
-          event.preventDefault();
-          smoothScroll(sectionFour, '1500');
-        };
+        // var sectionFourHandler2 = function(event){
+        //   event.preventDefault();
+        //   smoothScroll(sectionFour, '1500');
+        // };
 
-        var sectionFiveHandler = function(event){
-          event.preventDefault();
-          smoothScroll(sectionFive, '1500');
-        }
+        // var sectionFiveHandler = function(event){
+        //   event.preventDefault();
+        //   smoothScroll(sectionFive, '1500');
+        // };
 
-        var sectionFiveHandler2 = function(event){
-          event.preventDefault();
-          smoothScroll(sectionFive, '1500');
-        }
+        // var sectionFiveHandler2 = function(event){
+        //   event.preventDefault();
+        //   smoothScroll(sectionFive, '1500');
+        // };
 
-        sectionTwoBtn1.addEventListener('click', sectionTwoHandler);
-        sectionTwoBtn2.addEventListener('click', sectionTwoHandler);
-        sectionTwoBtmBtn1.addEventListener('click', sectionTwoHandlerBtm);
-        sectionTwoBtmBtn2.addEventListener('click', sectionTwoHandlerBtm);
-        sectionFourBtn1.addEventListener('click', sectionFourHandler);
-        sectionFourBtn2.addEventListener('click', sectionFourHandler2);
-        sectionFiveBtn1.addEventListener('click', sectionFiveHandler);
-        sectionFiveBtn2.addEventListener('click', sectionFiveHandler2);
+        // sectionTwoBtn1.addEventListener('click', sectionTwoHandler);
+        // sectionTwoBtn2.addEventListener('click', sectionTwoHandler);
+        // sectionTwoBtmBtn1.addEventListener('click', sectionTwoHandlerBtm);
+        // sectionTwoBtmBtn2.addEventListener('click', sectionTwoHandlerBtm);
+        // sectionFourBtn1.addEventListener('click', sectionFourHandler);
+        // sectionFourBtn2.addEventListener('click', sectionFourHandler2);
+        // sectionFiveBtn1.addEventListener('click', sectionFiveHandler);
+        // sectionFiveBtn2.addEventListener('click', sectionFiveHandler2);
 
         // hamburger.addEventListener('click', function(){
         //   hamburger.classList.toggle('is-active');

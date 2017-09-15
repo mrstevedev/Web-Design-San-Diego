@@ -151,7 +151,7 @@ Our business is helping your business succeed online. We believe that traffic eq
     </section>
   </section>
 </div>
-<a href="#" class="backtotopBtn cd-top">
+<a href="#section-one" class="backtotopBtn cd-top">
   <div class="back-to-top">
       <i class="svg-triangle" aria-hidden="true"></i>
   </div>
