@@ -6,7 +6,7 @@
     <h2>We design beautiful <span class="ampersand">&</span> modern experiences</h2>
     <a href="<?php bloginfo('url')?>/learn-more" title="Click here to learn more" class="btn learn-more box curmudgeon">Learn More</a>
   </section>
-  <?php echo Caldera_Forms::render_form( 'CF59bb48c8372c9' );?>
+  <?php //echo Caldera_Forms::render_form( 'CF59bb48c8372c9' );?>
   <!-- <div id="yelp-reviews"> -->
   <!-- <h3>Yelp Reviews</h3> -->
     <!-- <div id="yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA">
