@@ -18,8 +18,11 @@
     // All pages
     'common': {
       init: function() {
-        // JavaScript to be fired on all pages2
-        (function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rrc-58yAEFLuj7Qxrwzr8VTFwA";g.src = "//yelp.com/biz_badge_js/en_US/rrc/58yAEFLuj7Qxrwzr8VTFwA.js";s.parentNode.insertBefore(g, s);}(document, 'script'));
+        // JavaScript to be fired on all pages
+      
+
+        (function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rrc-58yAEFLuj7Qxrwzr8VTFwA";g.src = "//yelp.com/biz_badge_js/en_US/rrc/58yAEFLuj7Qxrwzr8VTFwA.js";s.parentNode.insertBefore(g, s);}(document, 'script'));</script>
+        
          //sticky back to top
          $(window).scroll(function(){
           var scrollPos = $(window).scrollTop();
@@ -57,7 +60,7 @@
         var sectionFiveBtn1 = document.querySelector('.sectionFiveBtn1');
         var sectionFiveBtn2 = document.querySelector('.sectionFiveBtn2');
 
-        var hamburger = document.querySelector('.hamburger');
+        // var hamburger = document.querySelector('.hamburger');
 
 
         var sectionOne = document.querySelector('.section-one');
@@ -123,9 +126,9 @@
         sectionFiveBtn1.addEventListener('click', sectionFiveHandler);
         sectionFiveBtn2.addEventListener('click', sectionFiveHandler2);
 
-        hamburger.addEventListener('click', function(){
-          hamburger.classList.toggle('is-active');
-        });
+        // hamburger.addEventListener('click', function(){
+        //   hamburger.classList.toggle('is-active');
+        // });
       }
     },
     // Home page

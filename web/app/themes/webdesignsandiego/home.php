@@ -7,12 +7,12 @@
     <a href="<?php bloginfo('url')?>/learn-more" title="Click here to learn more" class="btn learn-more box curmudgeon">Learn More</a>
   </section>
   <?php //echo Caldera_Forms::render_form( 'CF59bb48c8372c9' );?>
-  <!-- <div id="yelp-reviews"> -->
-  <!-- <h3>Yelp Reviews</h3> -->
-    <!-- <div id="yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA">
+    <div id="yelp-reviews">
+  <h3>Yelp Reviews</h3>
+    <div id="yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA">
       <a href="http://yelp.com/biz/eric-strate-seo-expert-san-diego?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge" target="_blank"></a>
     </div>    
-  </div> -->
+  </div>
     <div class="arrow-down">
       <button class="arrow right sectionTwoBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 80" xml:space="preserve">

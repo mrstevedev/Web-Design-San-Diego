@@ -17,17 +17,9 @@
       </div>
     </div>
 </div>
-    <button class="navbar-toggler hamburger hamburger--squeeze" 
-      type="button" 
-      data-toggle="collapse" 
-      data-target="#navbarCollapse" 
-      aria-controls="navbarSupportedContent" 
-      aria-expanded="false" 
-      aria-label="Toggle navigation">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
         <?php
         if (has_nav_menu('primary_navigation')) :
@@ -38,3 +30,9 @@
     </nav>
   </div>
 </header>
+
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+   
+   
+  </div>
