@@ -232,6 +232,12 @@
     overflow: hidden;
 }
 
+  .main{
+    background-color: #2B4160;
+    flex: 100%!important;
+    max-width: 100%!important;
+  }
+
 @media(min-width:1075px){
     #yelp-reviews {
         width: 100%;
@@ -247,7 +253,6 @@
     .section-two .left-side .container p{
         line-height: 20px;        
     }
-    
     .contact-column-right p {
         margin: 0;
     }
@@ -255,7 +260,9 @@
     .learn-more{
         display: none;
     }
-    
+    .nf-form-title{
+        margin: 30px 0;
+    }
     #section-two{
         height: initial;
     }
@@ -323,6 +330,42 @@
 .comment-form input[type=submit]:focus{
     box-shadow: none;
 }
+
+.search .main, 
+.error404 .main{
+    padding: 90px;
+    height: 200vh;
+}
+
+.error404 input.search-field {
+    width: 235px!important;
+}
+.error404 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.error404 .container h1{
+    font-size: 130px;
+    color: #213653;
+    line-height: 120px;
+}
+
+.page-error{
+    font-family: 'Economica';
+    font-size: 18px;
+    width: 25%;
+    text-align: center;
+    line-height: 20px;    
+}
+
+.search-form .search-submit:focus{
+    box-shadow: none;
+}
+
 @media(width:375px){
     .section-four section {
         margin: 0!important;
