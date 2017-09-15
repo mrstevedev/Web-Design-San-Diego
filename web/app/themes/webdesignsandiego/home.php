@@ -6,14 +6,13 @@
     <h2>We design beautiful <span class="ampersand">&</span> modern experiences</h2>
     <a href="<?php bloginfo('url')?>/learn-more" title="Click here to learn more" class="btn learn-more box curmudgeon">Learn More</a>
   </section>
-
-  </section><?php  Ninja_Forms()->display( 2 ); ?>
-  <div id="yelp-reviews">
+  <?php echo Caldera_Forms::render_form( 'CF59bb48c8372c9' );?>
+  <!-- <div id="yelp-reviews"> -->
   <!-- <h3>Yelp Reviews</h3> -->
-    <div id="yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA">
-      <a href="http://yelp.com/biz/eric-strate-seo-expert-san-diego?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge" target="_blank">Check out Eric Strate SEO Expert on Yelp</a>
+    <!-- <div id="yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA">
+      <a href="http://yelp.com/biz/eric-strate-seo-expert-san-diego?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge" target="_blank"></a>
     </div>    
-  </div>
+  </div> -->
     <div class="arrow-down">
       <button class="arrow right sectionTwoBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 80" xml:space="preserve">
@@ -144,7 +143,6 @@ Our business is helping your business succeed online. We believe that traffic eq
     <section class="col-lg-8 contact-column-left">
       <h1>Have An Idea? A Project in Mind?</h1>
       <h1>Let's Chat</h1>
-      <?php  Ninja_Forms()->display( 3 ); ?> 
     </section>
     <section class="col-lg-4 contact-column-right">
       <p class="local">Your local Marketing Agency. San Diego, CA 92104</p>

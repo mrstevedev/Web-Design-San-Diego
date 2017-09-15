@@ -1,4 +1,3 @@
-
 #section-five{
     background-image:url('/app/uploads/2017/09/WebDesignSanDiego-black.jpg');
     background-repeat: no-repeat;
@@ -233,133 +232,6 @@
     overflow: hidden;
 }
 
-  .main{
-    background-color: #2B4160;
-    flex: 100%!important;
-    max-width: 100%!important;
-  }
-
-  .nf-form-fields-required{
-      display: none;
-  }
-
-  .nf-response-msg{
-    font-family: 'Economica';
-    font-size: 17px;
-    position: relative;
-    top: 40px;
-    color: #def;
-  }
-
-  .nf-field-label{
-      transition: .35s ease-in;
-  } 
-.nf-field-label:focus{
-    opacity:1!important;
-    color:#fff;
-}
-
-  .ninja-forms-field{
-      color:#fff;
-      background: transparent;
-      border:0;
-      outline: none;
-      transition: .35s ease-in-out;
-      font-family: 'Economica';
-      border-bottom: 1px solid rgba(255,255,255,.2);
-  }
-
-.ninja-forms-field:hover {
-    border-bottom: 1px solid hsla(0,0%,100%,.4)!important;
-}
-.ninja-forms-field:focus {
-    border-bottom: 1px solid hsl(0, 0%, 100%)!important;
-}
-
-.nf-after-field .nf-error-msg {
-    margin-right: 0!important;
-}
-
-  .nf-error .ninja-forms-field {
-    border: 0!important;
-    border-bottom: 1px solid #FFFBD1!important;
-    transition: .35s ease all;
-    font-weight: 100!important;  
-    border-radius: 0;  
-}
-
-.nf-error-msg, .ninja-forms-req-symbol {
-    color: #FFFBD1!important;
-    font-family: 'Economica';
-    font-size:11px;
-    position: absolute;    
-    
-}
-
-.nf-error-required-error{
-    right: 0;
-}
-
-.nf-error-msg.nf-error-field-errors {
-    font-size: 16px;
-    left: 0;
-    right: 0;
-}
-
-.nf-error-msg.nf-error-field-errors:after{
-    content: "";
-    display: block;
-    border-bottom: 1px solid;
-    width: 34px;
-    margin: 12px auto;
-}
-.nf-field-label{
-    font-family: 'Economica';
-}
-
-.nf-field-label label{
-    font-weight: 100!important;
-}
-
-.label-above .nf-field-label {
-    margin-bottom: 0!important;
-}
-
-.submit-container .nf-element{
-    border-bottom:0;
-    cursor: pointer;
-}
-
-.submit-container{
-    text-align: right;
-}
-
-.nf-field-element textarea {
-    height: 27px!important;
-}
-
-.ninja-forms-req-symbol{
-    display: none;
-}
-
-#nf-form-2-cont{
-    width:100%;
-    padding-left:15px;
-    padding-right:15px;
-}
-
-.nf-form-title{
-    margin: 30px 0;
-}
-@media(min-width:415px){
-
-    #nf-form-2-cont{
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 @media(min-width:1075px){
     #yelp-reviews {
         width: 100%;
@@ -375,12 +247,7 @@
     .section-two .left-side .container p{
         line-height: 20px;        
     }
-    #nf-field-7-container .nf-error-msg.nf-error-required-error {
-        margin-top: -7px;
-    }
-    .nf-field-container {
-        margin-bottom: 0px!important;
-    }
+    
     .contact-column-right p {
         margin: 0;
     }
@@ -388,13 +255,7 @@
     .learn-more{
         display: none;
     }
-    .nf-form-title{
-        margin: 30px 0;
-    }
-
-    .nf-error-msg.nf-error-field-errors {
-        font-size: 12px;
-    }
+    
     #section-two{
         height: initial;
     }
@@ -427,30 +288,6 @@
         font-size: 15px!important;
         width: initial!important;
     }
-    .nf-field-container{
-        width: 100%!important;
-        margin-left: 0!important;        
-    }
-}
-.nf-form-wrap .ninja-forms-form-wrap{
-    width: 91%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.field-wrap .submit-wrap{
-    clear: left;
-    float: right;
-    width: 19%;
-}
-
-.nf-response-msg:after {
-    content: "";
-    border-bottom: solid 1px #def;
-    width: 40px;
-    height: 1px;
-    display: inline-block;
 }
 
 .social-svg-list{
@@ -486,42 +323,6 @@
 .comment-form input[type=submit]:focus{
     box-shadow: none;
 }
-
-.search .main, 
-.error404 .main{
-    padding: 90px;
-    height: 200vh;
-}
-
-.error404 input.search-field {
-    width: 235px!important;
-}
-.error404 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-}
-
-.error404 .container h1{
-    font-size: 130px;
-    color: #213653;
-    line-height: 120px;
-}
-
-.page-error{
-    font-family: 'Economica';
-    font-size: 18px;
-    width: 25%;
-    text-align: center;
-    line-height: 20px;    
-}
-
-.search-form .search-submit:focus{
-    box-shadow: none;
-}
-
 @media(width:375px){
     .section-four section {
         margin: 0!important;
