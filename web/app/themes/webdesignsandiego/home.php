@@ -4,7 +4,7 @@
     <h1>San Diego Web Design</h1>
     <h1>An Innovative Digital Agency</h1>
     <h2>We design beautiful <span class="ampersand">&</span> modern experiences</h2>
-    <a href="<?php bloginfo('url')?>/learn-more" title="Click here to learn more" class="btn learn-more box curmudgeon">Learn More</a>
+    <a href="<?php bloginfo('url')?>/learn-more" title="Click here to learn more" class="animated fadeIn btn learn-more box curmudgeon">Learn More</a>
   </section>
   <?php //echo Caldera_Forms::render_form( 'CF59bb48c8372c9' );?>
     <!-- <div id="yelp-reviews">
