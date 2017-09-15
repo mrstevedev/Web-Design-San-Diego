@@ -13,7 +13,8 @@
       <a href="http://yelp.com/biz/eric-strate-seo-expert-san-diego?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge" target="_blank"></a>
     </div>    
   </div> -->
-    <div class="arrow-down">
+  <a href="#section-two" class="arrow-down">
+    <div>
       <button class="arrow right sectionTwoBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 80" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
@@ -22,6 +23,7 @@
       </button>
     </div>
 </div>
+</a>
 <div id="section-two" class="section-two">
   <section class="column-top col-lg-12">
   <div class="container-fluid headline">Services</div>
@@ -56,7 +58,8 @@
       </div>
 </section>
   </section>
-  <div class="arrow-down">
+  <a href="#section-two" class="arrow-down">
+  <div>
       <button class="arrow right sectionTwoBtmBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
@@ -85,7 +88,8 @@ Our business is helping your business succeed online. We believe that traffic eq
       </div>
 </section>
 </section>
-  <div class="arrow-down">
+<a href="#section-two" class="arrow-down">
+  <div>
       <button class="arrow right sectionFourBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
@@ -129,7 +133,8 @@ Our business is helping your business succeed online. We believe that traffic eq
         ?>
     </div>
   </section>
-  <div class="arrow-down">
+  <a href="#section-two" class="arrow-down">
+  <div>
       <button class="arrow right sectionFiveBtn1">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
@@ -138,6 +143,7 @@ Our business is helping your business succeed online. We believe that traffic eq
       </button>
     </div>
 </div>
+</a>
 <div id="section-five" class="section-four section-five">
   <section class="container">
     <section class="col-lg-8 contact-column-left">
