@@ -13,7 +13,6 @@
     <div id="yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA">
       <a href="http://yelp.com/biz/eric-strate-seo-expert-san-diego?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge" target="_blank">Check out Eric Strate SEO Expert on Yelp</a>
     </div>    
-    <script type="application/ld+json">(function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rrc-58yAEFLuj7Qxrwzr8VTFwA";g.src = "//yelp.com/biz_badge_js/en_US/rrc/58yAEFLuj7Qxrwzr8VTFwA.js";s.parentNode.insertBefore(g, s);}(document, 'script'));</script>
   </div>
     <div class="arrow-down">
       <button class="arrow right sectionTwoBtn1">

@@ -19,7 +19,7 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
-      
+        (function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rrc-58yAEFLuj7Qxrwzr8VTFwA";g.src = "//yelp.com/biz_badge_js/en_US/rrc/58yAEFLuj7Qxrwzr8VTFwA.js";s.parentNode.insertBefore(g, s);}(document, 'script'));
          //sticky back to top
          $(window).scroll(function(){
           var scrollPos = $(window).scrollTop();
@@ -131,7 +131,8 @@
     // Home page
     'home': {
       init: function() {
-        // JavaScript to be fired on the home page      
+        // JavaScript to be fired on the home page     
+         
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
