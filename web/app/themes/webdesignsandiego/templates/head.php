@@ -9,7 +9,7 @@
         "@context": "http://schema.org",
         "@type": "Organization",
         "url": "http://webdesignsandiego.com/",
-        "description": "An online digital aageny location in San Diego, California.",
+        "description": "An online digital agency location in San Diego, California.",
         "image": [
           "/app/uploads/2017/09/logo.svg"
         ]
