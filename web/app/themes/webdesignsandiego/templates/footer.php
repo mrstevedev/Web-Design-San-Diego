@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script type="text/javascript" async>
   /* First CSS File */
   var giftofspeed = document.createElement('link');
   giftofspeed.rel = 'stylesheet';

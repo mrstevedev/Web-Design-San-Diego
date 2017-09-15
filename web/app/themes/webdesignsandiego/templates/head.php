@@ -7,11 +7,11 @@
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "headline": "Open-source framework for publishing content",
-        "datePublished": "2015-10-07T12:02:41Z",
+        "@type": "Organization",
+        "url": "http://webdesignsandiego.com/",
+        "description": "An online digital aageny location in San Diego, California.",
         "image": [
-          "logo.jpg"
+          "/app/uploads/2017/09/logo.svg"
         ]
       }
     </script>
