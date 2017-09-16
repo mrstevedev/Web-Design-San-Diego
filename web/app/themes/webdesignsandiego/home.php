@@ -12,7 +12,7 @@
     </div>
     <form method="post"
     class="p2"
-    action-xhr="/components/amp-form/submit-form-input-text-xhr"
+    action-xhr="/home"
     target="_top"
     custom-validation-reporting="show-all-on-submit">
     <div class="ampstart-input inline-block relative m0 p0 mb3">
@@ -80,8 +80,7 @@
     </div>
     <div submit-error>
       <template type="amp-mustache">
-        Error! Thanks {{name}} for trying the
-        <code>amp-form</code> demo with an error response.
+        <h3>Please fill in the reguired fields.</h3>
       </template>
     </div>
   </form>

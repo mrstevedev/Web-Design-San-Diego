@@ -1,8 +1,8 @@
 <header class="banner fixed-top">
   <div class="container-fluid">   
     <nav class="navbar nav-primary navbar-expand-md navbar-light" data-theme="white" aria-label="Primary">
-        <a class="brand logo col-3 col-sm-2 col-md-2 col-lg-1" href="<?= esc_url(home_url('/')); ?>">
-          <amp-img src="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg" srcset="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg 62w" alt="Welcome" width="72" height="50" layout="responsive"></amp-img>
+        <a class="brand logo col-2 col-sm-2 col-md-2 col-lg-1" href="<?= esc_url(home_url('/')); ?>">
+          <amp-img src="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg" srcset="<?php bloginfo('url')?>/app/uploads/2017/09/logo.svg 62w" alt="Welcome" width="92" height="70" layout="responsive"></amp-img>
         </a>          
     <div class="form-inline col-7 col-md-3">
     <div class="input-group">
