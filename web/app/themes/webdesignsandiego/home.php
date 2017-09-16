@@ -6,13 +6,12 @@
     <h2>We design beautiful <span class="ampersand">&</span> modern experiences</h2>
     <a href="<?php bloginfo('url')?>/learn-more" title="Click here to learn more" class="animated fadeIn btn learn-more box curmudgeon">Learn More</a>
   </section>
-  <?php //echo Caldera_Forms::render_form( 'CF59bb48c8372c9' );?>
   <div class="amp-form container">
     <div class="request-a-quote">
       <h3>Request a Quote</h3>
     </div>
   <form method="post"
-    action-xhr="https://example.com/subscribe"
+    action-xhr="https://webdesignsandiego.stevenpulido.com"
     target="_top">
     <fieldset>
       <div class="amp-field-group col-lg-3">
@@ -70,7 +69,7 @@
     </div>
   </form>
   </div>
-  <div id="">
+    <div id="">
   <h3>Yelp Reviews</h3>
     <div id="yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA">
       <a href="http://yelp.com/biz/eric-strate-seo-expert-san-diego?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge" target="_blank"></a>
