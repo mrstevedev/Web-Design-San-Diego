@@ -24,9 +24,9 @@
           placeholder="Enter your Name..."
           required
           pattern="\w+\s\w+">
-      <span visible-when-invalid="valueMissing"
+      <span class="animated fadeIn" visible-when-invalid="valueMissing"
         validation-for="show-all-on-submit-name"></span>
-      <span visible-when-invalid="patternMismatch"
+      <span class="animated fadeIn" visible-when-invalid="patternMismatch"
         validation-for="show-all-on-submit-name">
         Please enter your first and last name separated by a space (e.g. Jane Miller)
       </span>
@@ -38,9 +38,9 @@
         name="email"
         placeholder="Enter your Email..."
         required>
-      <span visible-when-invalid="valueMissing"
+      <span class="animated fadeIn" visible-when-invalid="valueMissing"
         validation-for="show-all-on-submit-email"></span>
-      <span visible-when-invalid="typeMismatch"
+      <span class="animated fadeIn" visible-when-invalid="typeMismatch"
         validation-for="show-all-on-submit-email"></span>
     </div>
     <div class="amp-field-group col-lg-3">
@@ -50,9 +50,9 @@
         name="tel"
         placeholder="Enter your Phone..."
         required>
-      <span visible-when-invalid="valueMissing"
+      <span class="animated fadeIn" visible-when-invalid="valueMissing"
         validation-for="show-all-on-submit-tel"></span>
-      <span visible-when-invalid="typeMismatch"
+      <span class="animated fadeIn" visible-when-invalid="typeMismatch"
         validation-for="show-all-on-submit-tel"></span>
     </div>
     <div class="amp-field-group col-lg-3">
@@ -62,9 +62,9 @@
         name="email"
         placeholder="Tell us about your project"
         required>
-      <span visible-when-invalid="valueMissing"
+      <span class="animated fadeIn" visible-when-invalid="valueMissing"
         validation-for="show-all-on-submit-message"></span>
-      <span visible-when-invalid="typeMismatch"
+      <span class="animated fadeIn" visible-when-invalid="typeMismatch"
         validation-for="show-all-on-submit-message"></span>
     </div>
     </div>

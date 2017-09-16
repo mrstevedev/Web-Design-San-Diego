@@ -27,6 +27,7 @@
       .amp-submit-control {background: transparent;border: 0;color: #FFF;font-family: 'Economica';float:right;outline:none;cursor:pointer; padding: 0px 20px;}
       .request-a-quote{margin:45px;}
       [visible-when-invalid] {display: none;color: #FFFBD1; font-family:'Economica';font-size:12px;float:right;}
+      #rendered-message-amp-form-0  {font-family:'Economica';color:#FFFBD1;}
       </style>
   <?php wp_head(); ?>
 </head>
