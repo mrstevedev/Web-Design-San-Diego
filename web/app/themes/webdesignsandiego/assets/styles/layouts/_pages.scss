@@ -392,6 +392,9 @@
 
 
 @media(max-width:415px){
+    .search-form label{
+        margin:0;
+    }
     .section-two-btm .column p {
         font-size: 16px!important;
         line-height:16px!important;
