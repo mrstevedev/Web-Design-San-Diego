@@ -221,7 +221,84 @@ Our business is helping your business succeed online. We believe that traffic eq
     <section class="col-lg-8 contact-column-left">
       <h1>Have An Idea? A Project in Mind?</h1>
       <h1>Let's Chat</h1>
+      <div class="amp-form">
+      <form method="post"
+    class="p2"
+    action-xhr="/home"
+    target="_top"
+    custom-validation-reporting="show-all-on-submit">
+    <div class="ampstart-input inline-block relative m0 p0 mb3">
+      <div class="amp-field-group col-lg-4">
+        <input type="text"
+          class="block border-none p0 m0 amp-control"
+          id="show-all-on-submit-name"
+          name="name"
+          placeholder="Enter your Name..."
+          required
+          pattern="\w+\s\w+">
+      <span class="animated fadeIn" visible-when-invalid="valueMissing"
+        validation-for="show-all-on-submit-name"></span>
+      <span class="animated fadeIn" visible-when-invalid="patternMismatch"
+        validation-for="show-all-on-submit-name">
+        Please enter your first and last name separated by a space (e.g. Jane Miller)
+      </span>
+      </div>
+      <div class="amp-field-group col-lg-4">
+      <input type="email"
+        class="block border-none p0 m0 amp-control"
+        id="show-all-on-submit-email"
+        name="email"
+        placeholder="Enter your Email..."
+        required>
+      <span class="animated fadeIn" visible-when-invalid="valueMissing"
+        validation-for="show-all-on-submit-email"></span>
+      <span class="animated fadeIn" visible-when-invalid="typeMismatch"
+        validation-for="show-all-on-submit-email"></span>
+    </div>
+    <div class="amp-field-group col-lg-4">
+      <input type="tel"
+        class="block border-none p0 m0 amp-control"
+        id="show-all-on-submit-tel"
+        name="tel"
+        placeholder="Enter your Phone..."
+        required>
+      <span class="animated fadeIn" visible-when-invalid="valueMissing"
+        validation-for="show-all-on-submit-tel"></span>
+      <span class="animated fadeIn" visible-when-invalid="typeMismatch"
+        validation-for="show-all-on-submit-tel"></span>
+    </div>
+    <div class="amp-field-group col-lg-12">
+      <input type="text"
+        class="block border-none p0 m0 amp-control"
+        id="show-all-on-submit-message"
+        name="email"
+        placeholder="Tell us about your project"
+        required>
+      <span class="animated fadeIn" visible-when-invalid="valueMissing"
+        validation-for="show-all-on-submit-message"></span>
+      <span class="animated fadeIn" visible-when-invalid="typeMismatch"
+        validation-for="show-all-on-submit-message"></span>
+    </div>
+    </div>
+    <input type="submit"
+      value="Request a Quote"
+      class="ampstart-btn caps amp-submit-control">
+    <div submit-success>
+      <template type="amp-mustache">
+        Success! Thanks {{name}} for trying the
+        <code>amp-form</code> demo! Try to insert the word "error" as a name input in the form to see how
+        <code>amp-form</code> handles errors.
+      </template>
+    </div>
+    <div submit-error>
+      <template type="amp-mustache">
+        <h3>Please fill in the reguired fields.</h3>
+      </template>
+    </div>
+  </form>
+      </div>
     </section>
+    
     <section class="col-lg-4 contact-column-right">
       <p class="local">Your local Marketing Agency. San Diego, CA 92104</p>
       <p class="phone-contact">858.461.8010</p>
