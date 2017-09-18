@@ -1,35 +1,4 @@
 <?php /*Template Name: Home Template */ ?>
-<?php
-    if(!empty($_POST))
-    {
-        $name = $_POST['name'];
-
-        /*/ this is the email we get from visitors*/
-        $domain_url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
-
-        /*//-->MUST BE 'https://';*/
-        header("Content-type: application/json");
-        header("Access-Control-Allow-Credentials: true");
-        header("Access-Control-Allow-Origin: *.ampproject.org");
-        header("AMP-Access-Control-Allow-Source-Origin: ".$domain_url);
-
-
-        /*/ For Sending Error Use this code /*/
-        if(!mail("email@example.com" , "Test submission" , "email: $name <br/> name: $name" , "From: $name\n ")){
-            header("HTTP/1.0 412 Precondition Failed", true, 412);
-
-            echo json_encode(array('errmsg'=>'There is some error while sending email!'));
-            die();
-        }
-        else
-        {
-            /*/--Assuming all validations are good here--*/
-            header("Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin");   
-
-                echo json_encode(array('successmsg'=>$_POST['name'].'My success message. [It will be displayed shortly(!) if with redirect]'));
-            die();
-        }
-    }?>
 <div id="section-one" class="section-one animated fadeIn">
   <section class="container">
     <h1>San Diego Web Design</h1>
@@ -43,7 +12,7 @@
     </div>
     <form method="post"
     class="p2"
-    action-xhr="./home.php"
+    action-xhr="https://webdesignsandiego.stevenpulido.com/home.php"
     target="_top"
     custom-validation-reporting="show-all-on-submit">
     <div class="ampstart-input inline-block relative m0 p0 mb3">
