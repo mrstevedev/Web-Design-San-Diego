@@ -56,10 +56,10 @@
           required
           pattern="\w+\s\w+">
       <span class="animated fadeIn" visible-when-invalid="valueMissing"
-        validation-for="show-all-on-submit-name"></span>
+        validation-for="show-all-on-submit-name">Please enter your first and last name separated by a space</span>
       <span class="animated fadeIn" visible-when-invalid="patternMismatch"
         validation-for="show-all-on-submit-name">
-        Please enter your first and last name separated by a space (e.g. Jane Miller)
+        Please enter your first and last name separated by a space
       </span>
       </div>
       <div class="amp-field-group col-lg-3">
