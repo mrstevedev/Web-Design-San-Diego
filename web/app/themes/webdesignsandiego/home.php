@@ -223,7 +223,7 @@ Our business is helping your business succeed online. We believe that traffic eq
       <h1>Let's Chat</h1>
       <div class="amp-form">
       <form method="post"
-    class="p2"
+    class="p3"
     action-xhr="https://webdesignsandiego.stevenpulido.com/thanks.php"
     target="_top"
     custom-validation-reporting="show-all-on-submit">
