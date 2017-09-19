@@ -1,4 +1,5 @@
 <?php
+if(isset($_POST['name'])){
   $domain_url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
   header("Content-type: application/json");
   header("Access-Control-Allow-Credentials: true");
@@ -9,7 +10,7 @@
   header("Access-Control-Expose-Headers: AMP-Redirect-To, AMP-Access-Control-Allow-Source-Origin"); 
   echo json_encode(array('successmsg'=>'data post'));
   exit;
-
+}
 ?>
 <head>
   <meta charset="utf-8">
