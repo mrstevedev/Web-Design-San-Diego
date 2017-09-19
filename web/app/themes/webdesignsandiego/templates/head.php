@@ -8,7 +8,7 @@ if(isset($_POST['submitlogin']))
 header("Content-type: application/json");
 header("Access-Control-Allow-Credentials: true");
 header("Access-Control-Allow-Origin: *.ampproject.org");
-header("AMP-Access-Control-Allow-Source-Origin: https://www.domain.com");
+header("AMP-Access-Control-Allow-Source-Origin: https://webdesignsandiego.stevenpulido.com");
 header("Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin");
 
 echo json_encode($output);
