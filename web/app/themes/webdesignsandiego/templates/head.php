@@ -1,5 +1,6 @@
 <?php
 if(isset($_POST['name'])){
+  echo 'testing form submission';
   $domain_url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
   header("Content-type: application/json");
   header("Access-Control-Allow-Credentials: true");
