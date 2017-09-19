@@ -12,7 +12,7 @@
     </div>
     <form method="post"
     class="p2"
-    action-xhr="https://webdesignsandiego.stevenpulido.com/home.php"
+    action-xhr="mailchimp-post.php"
     target="_top"
     custom-validation-reporting="show-all-on-submit">
     <div class="ampstart-input inline-block relative m0 p0 mb3">
