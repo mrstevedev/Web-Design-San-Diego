@@ -1,4 +1,17 @@
-
+<?php
+if(!empty($_POST)){
+  $domain_url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+  header("Content-type: application/json");
+  header("Access-Control-Allow-Credentials: true");
+  header("Access-Control-Allow-Origin: ". str_replace('.', '-','https://webdesignsandiego.stevenpulido.com') .".cdn.ampproject.org");
+  header("AMP-Access-Control-Allow-Source-Origin: " . $domain_url);
+  header("Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin");
+  header("AMP-Redirect-To: https://example.com/thankyou.amp.html");
+  header("Access-Control-Expose-Headers: AMP-Redirect-To, AMP-Access-Control-Allow-Source-Origin"); 
+  echo json_encode(array('successmsg'=>'data post'));
+  exit;
+}
+?>
 <head>
   <meta charset="utf-8">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
