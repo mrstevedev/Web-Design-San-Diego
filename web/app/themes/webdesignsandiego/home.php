@@ -18,26 +18,29 @@
     <div class="amp-field-group col-lg-3">
       <input type="name"
         class="amp-control"
-        placeholder="Search..."
-        name="googlesearch">
+        placeholder="Enter your Name..."
+        name="name"
+        required>
     </div>
     <div class="amp-field-group col-lg-3">
       <input type="email"
-      class="amp-control"
-        placeholder="Search..."
-        name="googlesearch">
+        class="amp-control"
+        placeholder="Enter your Email..."
+        name="email"
+        required>
     </div>
     <div class="amp-field-group col-lg-3">
       <input type="tel"
-      class="amp-control"
-        placeholder="Search..."
-        name="googlesearch">
+        class="amp-control"
+        placeholder="Enter your Phone..."
+        name="phone"
+        required>
     </div>
     <div class="amp-field-group col-lg-3">
       <input type="text"
-      class="amp-control"
-        placeholder="Search..."
-        name="googlesearch">
+        class="amp-control"
+        placeholder="Tell Us About your Project..."
+        name="message">
     </div>
     
     <input type="submit"
