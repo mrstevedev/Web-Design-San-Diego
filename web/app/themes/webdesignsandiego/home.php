@@ -221,10 +221,11 @@ Our business is helping your business succeed online. We believe that traffic eq
       <h1>Let's Chat</h1>
     <div class="amp-form">
     <form method="post"
-  class="p2"
-  action-xhr="https://webdesignsandiego.stevenpulido.com/post-2.php"
-  target="_top"
-  custom-validation-reporting="as-you-go">
+      id="amp-form-btm"
+      class="p2"
+      action-xhr="https://webdesignsandiego.stevenpulido.com/post-2.php"
+      target="_top"
+      custom-validation-reporting="as-you-go">
   <div class="ampstart-input inline-block relative m0 p0 mb3">
     <div class="amp-field-group col-lg-4">
     <input type="text"
