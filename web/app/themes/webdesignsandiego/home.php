@@ -10,7 +10,7 @@
     <div class="request-a-quote">
       <h3>Request a Quote</h3>
     </div>
-    <form name="submit" method="post" class="p2" action-xhr="https://webdesignsandiego.stevenpulido.com/post" target="_top"
+    <form name="submit" method="post" class="p2" action-xhr="https://webdesignsandiego.stevenpulido.com/post.php" target="_top"
     custom-validation-reporting="show-all-on-submit">
     <div class="ampstart-input inline-block relative m0 p0 mb3">
       <div class="amp-field-group col-lg-3">

@@ -4,7 +4,8 @@
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
 <?php
-if (!empty($_POST)) {
+if (isset($_POST['name'])) {
+  echo 'testing form submission';
   header("access-control-allow-credentials:true");
   header("access-control-allow-headers:Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token");
   header("access-control-allow-methods:POST, GET, OPTIONS");
