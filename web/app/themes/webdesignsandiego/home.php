@@ -10,77 +10,18 @@
     <div class="request-a-quote">
       <h3>Request a Quote</h3>
     </div>
-    <form name="submit" method="GET" class="p2" action="https://webdesignsandiego.stevenpulido.com/post.php" target="_top"
-    custom-validation-reporting="show-all-on-submit">
-    <div class="ampstart-input inline-block relative m0 p0 mb3">
-      <div class="amp-field-group col-lg-3">
-        <input type="text"
-          class="block border-none p0 m0 amp-control"
-          id="show-all-on-submit-name"
-          name="name"
-          placeholder="Enter your Name..."
-          required
-          pattern="\w+\s\w+">
-      <span class="animated fadeIn" visible-when-invalid="valueMissing"
-        validation-for="show-all-on-submit-name">Please enter your first and last name separated by a space</span>
-      <span class="animated fadeIn" visible-when-invalid="patternMismatch"
-        validation-for="show-all-on-submit-name">
-        Please enter your first and last name separated by a space
-      </span>
-      </div>
-      <div class="amp-field-group col-lg-3">
-      <input type="email"
-        class="block border-none p0 m0 amp-control"
-        id="show-all-on-submit-email"
-        name="email"
-        placeholder="Enter your Email..."
-        required>
-      <span class="animated fadeIn" visible-when-invalid="valueMissing"
-        validation-for="show-all-on-submit-email"></span>
-      <span class="animated fadeIn" visible-when-invalid="typeMismatch"
-        validation-for="show-all-on-submit-email"></span>
-    </div>
-    <div class="amp-field-group col-lg-3">
-      <input type="tel"
-        class="block border-none p0 m0 amp-control"
-        id="show-all-on-submit-tel"
-        name="tel"
-        placeholder="Enter your Phone..."
-        required>
-      <span class="animated fadeIn" visible-when-invalid="valueMissing"
-        validation-for="show-all-on-submit-tel"></span>
-      <span class="animated fadeIn" visible-when-invalid="typeMismatch"
-        validation-for="show-all-on-submit-tel"></span>
-    </div>
-    <div class="amp-field-group col-lg-3">
-      <input type="text"
-        class="block border-none p0 m0 amp-control"
-        id="show-all-on-submit-message"
-        name="email"
-        placeholder="Tell us about your project"
-        required>
-      <span class="animated fadeIn" visible-when-invalid="valueMissing"
-        validation-for="show-all-on-submit-message"></span>
-      <span class="animated fadeIn" visible-when-invalid="typeMismatch"
-        validation-for="show-all-on-submit-message"></span>
-    </div>
+    <form method="GET"
+    class="p2"
+    action="/components/amp-form/submit-form"
+    target="_top">
+    <div class="ampstart-input inline-block relative mb3">
+      <input type="search"
+        placeholder="Search..."
+        name="googlesearch">
     </div>
     <input type="submit"
-      name="submitlogin"
-      value="Request a Quote"
-      class="ampstart-btn caps amp-submit-control">
-    <div submit-success>
-      <template type="amp-mustache">
-        Success! Thanks {{name}} for trying the
-        <code>amp-form</code> demo! Try to insert the word "error" as a name input in the form to see how
-        <code>amp-form</code> handles errors.
-      </template>
-    </div>
-    <div submit-error>
-      <template type="amp-mustache">
-        <h3>Please fill in the reguired fields.</h3>
-      </template>
-    </div>
+      value="OK"
+      class="ampstart-btn caps">
   </form>
   </div>
     <div id="">
