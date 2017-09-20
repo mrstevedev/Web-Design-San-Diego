@@ -222,7 +222,7 @@ Our business is helping your business succeed online. We believe that traffic eq
     <div class="amp-form">
     <form method="post"
   class="p2"
-  action-xhr="/components/amp-form/submit-form-input-text-xhr"
+  action-xhr="https://webdesignsandiego.stevenpulido.com/post-2.php"
   target="_top"
   custom-validation-reporting="as-you-go">
   <div class="ampstart-input inline-block relative m0 p0 mb3">
