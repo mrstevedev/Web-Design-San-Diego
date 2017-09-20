@@ -4,6 +4,7 @@
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
 <?php
+echo 'this is the post page';
 if (isset($_POST['name'])) {
   echo 'testing form submission';
   header("access-control-allow-credentials:true");
