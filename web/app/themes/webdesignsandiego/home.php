@@ -91,7 +91,7 @@
   </div>
     <a href="#section-two" class="arrow-down">
       <button class="arrow right sectionTwoBtn1">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 80" xml:space="preserve">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="40px" viewBox="0 0 50 55" xml:space="preserve">
           <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
         0.375,0.375 45.63,38.087 0.375,75.8 "/>
         </svg>
