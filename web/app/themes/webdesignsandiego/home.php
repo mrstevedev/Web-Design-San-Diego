@@ -12,7 +12,7 @@
     </div>
     <form method="GET"
     class="p2"
-    action="/components/amp-form/submit-form"
+    action="/post"
     target="_top">
     <div class="ampstart-input inline-block relative mb3">
       <input type="search"
