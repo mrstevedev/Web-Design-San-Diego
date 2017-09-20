@@ -35,6 +35,7 @@
     </div>
     <div class="amp-field-group col-lg-3">
       <input type="text"
+      class="amp-control"
         placeholder="Search..."
         name="googlesearch">
     </div>
