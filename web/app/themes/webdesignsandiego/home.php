@@ -35,14 +35,13 @@
     </div>
     <div class="amp-field-group col-lg-3">
       <input type="text"
-      class="amp-control"
         placeholder="Search..."
         name="googlesearch">
     </div>
     
     <input type="submit"
       value="Request a Quote"
-      class="ampstart-btn caps">
+      class="ampstart-btn caps amp-submit-control">
       </div>
   </form>
   </div>
