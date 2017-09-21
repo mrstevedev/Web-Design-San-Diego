@@ -3,9 +3,9 @@
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
   <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+  <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1">
-  <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
