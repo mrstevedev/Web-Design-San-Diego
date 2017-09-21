@@ -421,7 +421,10 @@
     height: 100vh;
 }
 
-//contact-form styles
+//AMP form contact-form styles
+
+
+
 #wpcf7-f73-o1 p:nth-child(2),
 #wpcf7-f73-o1 p:nth-child(3),
 #wpcf7-f73-o1 p:nth-child(4),
@@ -433,6 +436,12 @@
     padding-right: 15px;
     opacity:.2;
     transition: 1s ease-in-out;
+    width:100%;
+}
+
+#wpcf7-f73-o1 p:nth-child(7){
+    clear:left;    
+   float:right;
 }
 
 #wpcf7-f73-o1 .wpcf7-form p:hover{
@@ -442,6 +451,7 @@
 #wpcf7-f73-o1 .wpcf7-form label{
     text-align: left;
     font-family: 'Economica';
+    width: 100%;    
 }
 
 #wpcf7-f73-o1 .wpcf7-form input {
@@ -451,6 +461,7 @@
     outline: none;
     color: #FFF;
     font-family: 'Economica';
+    width:100%;
 }
 
 form.amp-form-submit-error [submit-error], 
@@ -465,6 +476,7 @@ form.amp-form-submitting [submitting] {
     float:right;
     border:none;
     cursor:pointer;
+    width: initial;    
 }
 
 form.amp-form-submit-error [submit-error] {
@@ -473,4 +485,14 @@ form.amp-form-submit-error [submit-error] {
         right: 0;
         bottom: 230px;
         transition: 1s ease-in-out;
+    }
+
+    @media(max-width:415px){
+        #wpcf7-f73-o1 p:nth-child(2),
+        #wpcf7-f73-o1 p:nth-child(3),
+        #wpcf7-f73-o1 p:nth-child(4),
+        #wpcf7-f73-o1 p:nth-child(5),
+        #wpcf7-f73-o1 p:nth-child(6){
+            max-width:100%;
+        }
     }
