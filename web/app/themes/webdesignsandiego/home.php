@@ -149,7 +149,7 @@ Our business is helping your business succeed online. We believe that traffic eq
       <h1>Have An Idea? A Project in Mind?</h1>
       <h1>Let's Chat</h1>
     <div class="amp-form">
-   
+    <?php echo do_shortcode('[contact-form-7 id="74" title="Request a Quote"]'); ?>
     </div>
     </section>
     
