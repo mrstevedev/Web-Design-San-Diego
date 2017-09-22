@@ -506,13 +506,21 @@ form.amp-form-submitting [submitting] {
     width: initial;    
 }
 
-form.amp-form-submit-error [submit-error] {
+#wpcf7-f73-o1 form.amp-form-submit-error [submit-error] {
         position: absolute;
         left: 0;
         right: 0;
         bottom: 230px;
         transition: 1s ease-in-out;
     }
+
+#wpcf7-f74-o2 form.amp-form-submit-error [submit-error] {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 1s ease-in-out;
+}
     #rendered-message-amp-form-0{
         transition: 2s ease-in-out;
         margin: 21px 0;
@@ -535,6 +543,6 @@ form.amp-form-submit-error [submit-error] {
 
         #rendered-message-amp-form-0 {
             margin: 0;
-            font-size: 15px;
+            font-size: 14px;
         }
     }
