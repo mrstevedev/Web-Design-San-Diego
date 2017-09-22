@@ -453,8 +453,12 @@
     width:100%;
 }
 #wpcf7-f74-o2 p:nth-child(5){
+    clear:left;
+    transition: 1s ease-in-out;    
     opacity:.2;
     width:100%;
+    padding-left:15px;
+    padding-right: 15px;
 }
 
 #wpcf7-f73-o1 p:nth-child(7),
@@ -509,7 +513,10 @@ form.amp-form-submit-error [submit-error] {
         bottom: 230px;
         transition: 1s ease-in-out;
     }
-
+    #rendered-message-amp-form-0{
+        transition: 2s ease-in-out;
+        margin: 21px 0;
+    }
     @media(max-width:415px){
         #wpcf7-f73-o1 p:nth-child(2),
         #wpcf7-f73-o1 p:nth-child(3),
@@ -524,5 +531,10 @@ form.amp-form-submit-error [submit-error] {
         #wpcf7-f74-o2 p:nth-child(5),
         #wpcf7-f74-o2 p:nth-child(6){
             max-width:100%;
+        }
+
+        #rendered-message-amp-form-0 {
+            margin: 0;
+            font-size: 15px;
         }
     }
