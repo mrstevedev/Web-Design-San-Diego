@@ -13,7 +13,10 @@
     <?php echo do_shortcode('[contact-form-7 id="91" title="Request a Quote"]'); ?>
   </div>
   <div id="">
-  <h3>Yelp Reviews</h3>
+  <a href="https://www.yelp.com/biz/eric-strate-seo-expert-san-diego">
+    <h3>Yelp Reviews</h3>
+  </a>
+  
     <div id="yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA">
       <a href="http://yelp.com/biz/eric-strate-seo-expert-san-diego?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge" target="_blank"></a>
     </div>    
