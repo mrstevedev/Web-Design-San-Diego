@@ -95,7 +95,7 @@ function display_sidebar() {
  * Theme assets
  */
 function assets() {
-  wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
+  // wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
   wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Economica|Oswald');
   // wp_enqueue_style('sage/hamburger-css', get_template_directory_uri().'/dist/styles/hamburgers.min.css', false);
   
