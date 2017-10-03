@@ -14,7 +14,7 @@
   </div>
   <div id="">
   <a href="https://www.yelp.com/biz/eric-strate-seo-expert-san-diego">
-    <h3>Yelp Reviews</h3>
+      <h3>Yelp Reviews</h3>
   </a>
   
     <div id="yelp-biz-badge-rrc-58yAEFLuj7Qxrwzr8VTFwA">
